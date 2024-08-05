@@ -36,7 +36,7 @@
             <cover type="50000">79.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
-          <protectors type="everday">
+          <protectors type="everyday">
             <cover type="50000">133.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
@@ -76,7 +76,7 @@
             <cover type="50000">85.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
-          <protectors type="everday">
+          <protectors type="everyday">
             <cover type="50000">140.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
@@ -116,7 +116,7 @@
             <cover type="50000">95.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
-          <protectors type="everday">
+          <protectors type="everyday">
             <cover type="50000">149.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
@@ -156,7 +156,7 @@
             <cover type="50000">99.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
-          <protectors type="everday">
+          <protectors type="everyday">
             <cover type="50000">160.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
@@ -191,7 +191,7 @@
             <cover type="20000">74.00</cover>
             <!-- Add other cover amounts -->
           </protectors>
-          <protectors type="everday">
+          <protectors type="everyday">
             <cover type="5000">66.00</cover>
             <cover type="10000">70.00</cover>
             <cover type="20000">74.00</cover>
