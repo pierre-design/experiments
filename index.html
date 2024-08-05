@@ -437,32 +437,38 @@
                 return;
             }
 
+            const coverOptionNode = ageNode.querySelector(`cover_option[type="${selectedCover}"]`);
+            if (!coverOptionNode) {
+                console.error(`Cover option "${selectedCover}" not found for age "${age}"`);
+                return;
+            }
+
             if (selectedCover === 'protectors') {
-                const protectorNode = ageNode.querySelector(`cover_option[type="protectors"] protectors[type="${selectedProtector}"]`);
+                const protectorNode = coverOptionNode.querySelector(`protectors[type="${selectedProtector}"]`);
                 if (protectorNode) {
-                    premium = parseFloat(protectorNode.textContent);
+                    const coverNode = protectorNode.querySelector('cover');
+                    if (coverNode) {
+                        premium = parseFloat(coverNode.textContent);
+                    } else {
+                        console.error(`Cover not found for protector "${selectedProtector}"`);
+                    }
                 } else {
                     console.error(`Protector "${selectedProtector}" not found for age "${age}"`);
                 }
             } else {
                 const coverAmount = document.getElementById('cover-amount').value;
                 console.log(`Searching for cover amount: ${coverAmount} in ${selectedCover} cover`);
-                const coverOptionNode = ageNode.querySelector(`cover_option[type="${selectedCover}"]`);
-                if (coverOptionNode) {
-                    const coverNode = coverOptionNode.querySelector(`cover[amount="${coverAmount}"]`);
-                    if (coverNode) {
-                        premium = parseFloat(coverNode.textContent);
-                    } else {
-                        console.error(`Cover amount "${coverAmount}" not found for ${selectedCover} cover`);
-                        // Fallback: use the first available cover amount
-                        const firstCoverNode = coverOptionNode.querySelector('cover');
-                        if (firstCoverNode) {
-                            premium = parseFloat(firstCoverNode.textContent);
-                            console.log(`Fallback to first available cover amount: ${firstCoverNode.getAttribute('amount')}`);
-                        }
-                    }
+                const coverNode = coverOptionNode.querySelector(`cover[type="${coverAmount}"]`);
+                if (coverNode) {
+                    premium = parseFloat(coverNode.textContent);
                 } else {
-                    console.error(`Cover option "${selectedCover}" not found for age "${age}"`);
+                    console.error(`Cover amount "${coverAmount}" not found for ${selectedCover} cover`);
+                    // Fallback: use the first available cover amount
+                    const firstCoverNode = coverOptionNode.querySelector('cover');
+                    if (firstCoverNode) {
+                        premium = parseFloat(firstCoverNode.textContent);
+                        console.log(`Fallback to first available cover amount: ${firstCoverNode.getAttribute('type')}`);
+                    }
                 }
             }
 
