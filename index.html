@@ -294,7 +294,7 @@
             let pricingTable;
 
             async function fetchPricingTable() {
-                const response = await fetch('path_to/pricing_table.xml');
+                const response = await fetch('pricing_table.xml');
                 const text = await response.text();
                 const parser = new DOMParser();
                 pricingTable = parser.parseFromString(text, "text/xml");
