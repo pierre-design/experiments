@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricingTable>
+  <role name="main">
+    <gender type="male">
+      <age value="18">
+        <cover_option type="essential">
+          <cover type="5000">59.00</cover>
+          <cover type="10000">66.00</cover>
+          <cover type="20000">70.00</cover>
+          <cover type="20000">74.00</cover>
+          <cover type="20000">79.00</cover>
+          <cover type="20000">89.00</cover>
+          <cover type="20000">99.00</cover>
+          <cover type="20000">109.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="diamond">
+          <cover type="5000">70.00</cover>
+          <cover type="10000">75.00</cover>
+          <cover type="20000">94.00</cover>
+          <cover type="20000">116.00</cover>
+          <cover type="20000">139.00</cover>
+          <cover type="20000">163.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="50000">128.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="groceries">
+            <cover type="50000">88.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="transport">
+            <cover type="50000">79.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="everday">
+            <cover type="50000">133.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+        </cover_option>
+      </age>
+      <age value="19">
+        <cover_option type="essential">
+          <cover type="5000">65.00</cover>
+          <cover type="10000">68.00</cover>
+          <cover type="20000">72.00</cover>
+          <cover type="20000">77.00</cover>
+          <cover type="20000">84.00</cover>
+          <cover type="20000">95.00</cover>
+          <cover type="20000">106.00</cover>
+          <cover type="20000">117.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="diamond">
+          <cover type="5000">73.00</cover>
+          <cover type="10000">78.00</cover>
+          <cover type="20000">99.00</cover>
+          <cover type="20000">123.00</cover>
+          <cover type="20000">149.00</cover>
+          <cover type="20000">177.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="50000">133.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="groceries">
+            <cover type="50000">94.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="transport">
+            <cover type="50000">85.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="everday">
+            <cover type="50000">140.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+        </cover_option>
+      </age>
+      <age value="20">
+        <cover_option type="essential">
+          <cover type="5000">68.00</cover>
+          <cover type="10000">70.00</cover>
+          <cover type="20000">75.00</cover>
+          <cover type="20000">80.00</cover>
+          <cover type="20000">89.00</cover>
+          <cover type="20000">101.00</cover>
+          <cover type="20000">113.00</cover>
+          <cover type="20000">125.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="diamond">
+          <cover type="5000">75.00</cover>
+          <cover type="10000">81.00</cover>
+          <cover type="20000">105.00</cover>
+          <cover type="20000">131.00</cover>
+          <cover type="20000">159.00</cover>
+          <cover type="20000">190.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="50000">140.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="groceries">
+            <cover type="50000">102.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="transport">
+            <cover type="50000">95.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="everday">
+            <cover type="50000">149.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+        </cover_option>
+      </age>
+      <age value="21">
+        <cover_option type="essential">
+          <cover type="5000">70.00</cover>
+          <cover type="10000">73.00</cover>
+          <cover type="20000">78.00</cover>
+          <cover type="20000">83.00</cover>
+          <cover type="20000">93.00</cover>
+          <cover type="20000">105.00</cover>
+          <cover type="20000">117.00</cover>
+          <cover type="20000">130.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="diamond">
+          <cover type="5000">78.00</cover>
+          <cover type="10000">84.00</cover>
+          <cover type="20000">110.00</cover>
+          <cover type="20000">137.00</cover>
+          <cover type="20000">166.00</cover>
+          <cover type="20000">201.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="50000">148.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="groceries">
+            <cover type="50000">108.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="transport">
+            <cover type="50000">99.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="everday">
+            <cover type="50000">160.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+        </cover_option>
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <gender type="female">
+      <age value="18">
+        <cover_option type="essential">
+          <cover type="5000">66.00</cover>
+          <cover type="10000">70.00</cover>
+          <cover type="20000">74.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="diamond">
+          <cover type="5000">66.00</cover>
+          <cover type="10000">70.00</cover>
+          <cover type="20000">74.00</cover>
+          <!-- Add other cover amounts -->
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="5000">66.00</cover>
+            <cover type="10000">70.00</cover>
+            <cover type="20000">74.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="transport">
+            <cover type="5000">66.00</cover>
+            <cover type="10000">70.00</cover>
+            <cover type="20000">74.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="everday">
+            <cover type="5000">66.00</cover>
+            <cover type="10000">70.00</cover>
+            <cover type="20000">74.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+          <protectors type="groceries">
+            <cover type="5000">66.00</cover>
+            <cover type="10000">70.00</cover>
+            <cover type="20000">74.00</cover>
+            <!-- Add other cover amounts -->
+          </protectors>
+        </cover_option>
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <!-- Add other genders if needed -->
+  </role>
+  <role name="spouse">
+    <gender type="male">
+      <age value="18">
+        <cover type="5000">66.00</cover>
+        <cover type="10000">70.00</cover>
+        <cover type="20000">74.00</cover>
+        <!-- Add other cover amounts -->
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <gender type="female">
+      <age value="18">
+        <cover type="5000">63.00</cover>
+        <cover type="10000">67.00</cover>
+        <cover type="20000">71.00</cover>
+        <!-- Add other cover amounts -->
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <!-- Add other genders if needed -->
+  </role>
+  <role name="child">
+    <gender type="male">
+      <age value="1">
+        <cover type="5000">66.00</cover>
+        <cover type="10000">70.00</cover>
+        <cover type="20000">74.00</cover>
+        <!-- Add other cover amounts -->
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <gender type="female">
+      <age value="1">
+        <cover type="5000">63.00</cover>
+        <cover type="10000">67.00</cover>
+        <cover type="20000">71.00</cover>
+        <!-- Add other cover amounts -->
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <!-- Add other genders if needed -->
+  </role>
+  <role name="parent">
+    <gender type="male">
+      <age value="30">
+        <cover type="5000">66.00</cover>
+        <cover type="10000">70.00</cover>
+        <cover type="20000">74.00</cover>
+        <!-- Add other cover amounts -->
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <gender type="female">
+      <age value="30">
+        <cover type="5000">63.00</cover>
+        <cover type="10000">67.00</cover>
+        <cover type="20000">71.00</cover>
+        <!-- Add other cover amounts -->
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <!-- Add other genders if needed -->
+  </role>
+  <role name="extended">
+    <gender type="male">
+      <age value="1">
+        <cover type="5000">66.00</cover>
+        <cover type="10000">70.00</cover>
+        <cover type="20000">74.00</cover>
+        <!-- Add other cover amounts -->
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <gender type="female">
+      <age value="1">
+        <cover type="5000">63.00</cover>
+        <cover type="10000">67.00</cover>
+        <cover type="20000">71.00</cover>
+        <!-- Add other cover amounts -->
+      </age>
+      <!-- Add other ages -->
+    </gender>
+    <!-- Add other genders if needed -->
+  </role>
+  <!-- Add other roles -->
+</pricingTable>
