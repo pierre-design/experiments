@@ -7,20 +7,20 @@
           <cover type="5000">59.00</cover>
           <cover type="10000">66.00</cover>
           <cover type="20000">70.00</cover>
-          <cover type="20000">74.00</cover>
-          <cover type="20000">79.00</cover>
-          <cover type="20000">89.00</cover>
-          <cover type="20000">99.00</cover>
-          <cover type="20000">109.00</cover>
+          <cover type="30000">74.00</cover>
+          <cover type="40000">79.00</cover>
+          <cover type="50000">89.00</cover>
+          <cover type="60000">99.00</cover>
+          <cover type="70000">109.00</cover>
           <!-- Add other cover amounts -->
         </cover_option>
         <cover_option type="diamond">
           <cover type="5000">70.00</cover>
           <cover type="10000">75.00</cover>
           <cover type="20000">94.00</cover>
-          <cover type="20000">116.00</cover>
-          <cover type="20000">139.00</cover>
-          <cover type="20000">163.00</cover>
+          <cover type="30000">116.00</cover>
+          <cover type="40000">139.00</cover>
+          <cover type="50000">163.00</cover>
           <!-- Add other cover amounts -->
         </cover_option>
         <cover_option type="protectors">
@@ -47,20 +47,20 @@
           <cover type="5000">65.00</cover>
           <cover type="10000">68.00</cover>
           <cover type="20000">72.00</cover>
-          <cover type="20000">77.00</cover>
-          <cover type="20000">84.00</cover>
-          <cover type="20000">95.00</cover>
-          <cover type="20000">106.00</cover>
-          <cover type="20000">117.00</cover>
+          <cover type="30000">77.00</cover>
+          <cover type="40000">84.00</cover>
+          <cover type="50000">95.00</cover>
+          <cover type="60000">106.00</cover>
+          <cover type="70000">117.00</cover>
           <!-- Add other cover amounts -->
         </cover_option>
         <cover_option type="diamond">
           <cover type="5000">73.00</cover>
           <cover type="10000">78.00</cover>
           <cover type="20000">99.00</cover>
-          <cover type="20000">123.00</cover>
-          <cover type="20000">149.00</cover>
-          <cover type="20000">177.00</cover>
+          <cover type="30000">123.00</cover>
+          <cover type="40000">149.00</cover>
+          <cover type="50000">177.00</cover>
           <!-- Add other cover amounts -->
         </cover_option>
         <cover_option type="protectors">
@@ -87,20 +87,20 @@
           <cover type="5000">68.00</cover>
           <cover type="10000">70.00</cover>
           <cover type="20000">75.00</cover>
-          <cover type="20000">80.00</cover>
-          <cover type="20000">89.00</cover>
-          <cover type="20000">101.00</cover>
-          <cover type="20000">113.00</cover>
-          <cover type="20000">125.00</cover>
+          <cover type="30000">80.00</cover>
+          <cover type="40000">89.00</cover>
+          <cover type="50000">101.00</cover>
+          <cover type="60000">113.00</cover>
+          <cover type="70000">125.00</cover>
           <!-- Add other cover amounts -->
         </cover_option>
         <cover_option type="diamond">
           <cover type="5000">75.00</cover>
           <cover type="10000">81.00</cover>
           <cover type="20000">105.00</cover>
-          <cover type="20000">131.00</cover>
-          <cover type="20000">159.00</cover>
-          <cover type="20000">190.00</cover>
+          <cover type="30000">131.00</cover>
+          <cover type="40000">159.00</cover>
+          <cover type="50000">190.00</cover>
           <!-- Add other cover amounts -->
         </cover_option>
         <cover_option type="protectors">
@@ -127,20 +127,20 @@
           <cover type="5000">70.00</cover>
           <cover type="10000">73.00</cover>
           <cover type="20000">78.00</cover>
-          <cover type="20000">83.00</cover>
-          <cover type="20000">93.00</cover>
-          <cover type="20000">105.00</cover>
-          <cover type="20000">117.00</cover>
-          <cover type="20000">130.00</cover>
+          <cover type="30000">83.00</cover>
+          <cover type="40000">93.00</cover>
+          <cover type="50000">105.00</cover>
+          <cover type="60000">117.00</cover>
+          <cover type="70000">130.00</cover>
           <!-- Add other cover amounts -->
         </cover_option>
         <cover_option type="diamond">
           <cover type="5000">78.00</cover>
           <cover type="10000">84.00</cover>
           <cover type="20000">110.00</cover>
-          <cover type="20000">137.00</cover>
-          <cover type="20000">166.00</cover>
-          <cover type="20000">201.00</cover>
+          <cover type="30000">137.00</cover>
+          <cover type="40000">166.00</cover>
+          <cover type="50000">201.00</cover>
           <!-- Add other cover amounts -->
         </cover_option>
         <cover_option type="protectors">
