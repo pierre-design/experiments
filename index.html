@@ -294,7 +294,7 @@
             let pricingTable;
 
             async function fetchPricingTable() {
-                const response = await fetch('pricing_table.xml');
+                const response = await fetch('path_to/pricing_table.xml');
                 const text = await response.text();
                 const parser = new DOMParser();
                 pricingTable = parser.parseFromString(text, "text/xml");
@@ -421,7 +421,7 @@
                 if (!ageNode) return;
 
                 if (selectedCover === 'protectors') {
-                    premium = parseFloat(ageNode.querySelector(`cover_option[type="protectors"] protectors[type="${selectedProtector}"] cover[type="5000"]`).textContent);
+                    premium = parseFloat(ageNode.querySelector(`cover_option[type="protectors"] protectors[type="${selectedProtector}"]`).textContent);
                 } else {
                     const coverAmount = document.getElementById('cover-amount').value;
                     premium = parseFloat(ageNode.querySelector(`cover_option[type="${selectedCover}"] cover[type="${coverAmount}"]`).textContent);
@@ -435,5 +435,6 @@
             selectProtector('education');
             updateCoverOptions();
         </script>
-        </body>
+
+      </body>
 </html>
