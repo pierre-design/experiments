@@ -261,7 +261,7 @@
                     R500,000 Cash in 25yrs
                 </div>
             </div>
-            <div class="protector-block" onclick="selectProtector('everyday')">
+            <div class="protector-block" onclick="selectProtector('everydays')">
                 <div class="label">Everyday</div>
                 <div class="details">
                     R50,000 Cover or<br>
@@ -325,149 +325,105 @@
         }
 
         function updateCoverOptions() {
-            const coverAmountSelect = document.getElementById('cover-amount');
-            coverAmountSelect.innerHTML = '';
+                const coverAmountSelect = document.getElementById('cover-amount');
+                coverAmountSelect.innerHTML = '';
 
-            const coverAmounts = selectedCover === 'essential' ? [
-                70000, 60000, 50000, 40000, 30000, 20000, 10000, 5000
-            ] : [
-                50000, 40000, 30000, 20000, 10000, 5000
-            ];
+                const coverAmounts = selectedCover === 'essential' ? [
+                    70000, 60000, 50000, 40000, 30000, 20000, 10000, 5000
+                ] : [
+                    50000, 40000, 30000, 20000, 10000, 5000
+                ];
 
-            coverAmounts.forEach(amount => {
-                const option = document.createElement('option');
-                option.value = amount;
-                option.textContent = 'R' + amount.toLocaleString();
-                coverAmountSelect.appendChild(option);
-            });
+                coverAmounts.forEach(amount => {
+                    const option = document.createElement('option');
+                    option.value = amount;
+                    option.textContent = 'R' + amount.toLocaleString();
+                    coverAmountSelect.appendChild(option);
+                });
 
-            coverAmountSelect.selectedIndex = 0;
-        }
+                coverAmountSelect.selectedIndex = 0;
+                updatePremium(); // Call updatePremium after updating cover options
+            }
 
-        function selectProtector(protector) {
-            selectedProtector = protector;
-            document.querySelectorAll('.protector-block').forEach(block => block.classList.remove('active'));
-            document.querySelectorAll('.protector-block').forEach(block => {
-                if (block.querySelector('.label').textContent.toLowerCase() === protector) {
-                    block.classList.add('active');
+            function updatePremium() {
+                checkAgeLimits();
+                const role = document.getElementById('role').value;
+                const age = parseInt(document.getElementById('age').value);
+                const gender = selectedGender;
+                let premium = 0;
+
+                if (!pricingTable) {
+                    console.log("Pricing table not loaded yet");
+                    return;
                 }
-            });
-            updatePremium();
-        }
 
-        function toggleGender() {
-            if (selectedGender === 'male') {
-                selectedGender = 'female';
-                document.getElementById('male').classList.remove('active');
-                document.getElementById('female').classList.add('active');
-            } else {
-                selectedGender = 'male';
-                document.getElementById('male').classList.add('active');
-                document.getElementById('female').classList.remove('active');
-            }
-            updatePremium();
-        }
+                console.log(`Updating premium for role: ${role}, age: ${age}, gender: ${gender}, cover: ${selectedCover}`);
 
-        function checkAgeLimits() {
-            const role = document.getElementById('role').value;
-            const age = parseInt(document.getElementById('age').value);
-            const ageInput = document.getElementById('age');
-            const errorLabel = document.getElementById('error-label');
+                const roleNode = pricingTable.querySelector(`role[name="${role}"]`);
+                if (!roleNode) {
+                    console.error(`Role "${role}" not found in pricing table`);
+                    return;
+                }
 
-            if (age < ageLimits[role].min) {
-                ageInput.classList.add('error');
-                errorLabel.textContent = 'Too young';
-                errorLabel.style.display = 'block';
-            } else if (age > ageLimits[role].max) {
-                ageInput.classList.add('error');
-                errorLabel.textContent = 'Too old';
-                errorLabel.style.display = 'block';
-            } else {
-                ageInput.classList.remove('error');
-                errorLabel.style.display = 'none';
-            }
-        }
+                const genderNode = roleNode.querySelector(`gender[type="${gender}"]`);
+                if (!genderNode) {
+                    console.error(`Gender "${gender}" not found for role "${role}"`);
+                    return;
+                }
 
-        function toggleCoverOptions() {
-            const role = document.getElementById('role').value;
-            const protectorsButton = document.getElementById('protectors');
-            if (role !== 'main') {
-                protectorsButton.style.display = 'none';
-                document.getElementById('essential').style.width = '-webkit-fill-available;';
-                document.getElementById('diamond').style.width = '-webkit-fill-available;';
+                const ageNode = genderNode.querySelector(`age[value="${age}"]`);
+                if (!ageNode) {
+                    console.error(`Age "${age}" not found for role "${role}" and gender "${gender}"`);
+                    return;
+                }
+
                 if (selectedCover === 'protectors') {
-                    selectCover('essential');
-                }
-            } else {
-                protectorsButton.style.display = 'block';
-                document.getElementById('essential').style.width = '-webkit-fill-available;';
-                document.getElementById('diamond').style.width = '-webkit-fill-available;';
-            }
-        }
-
-        function updatePremium() {
-            checkAgeLimits();
-            const role = document.getElementById('role').value;
-            const age = parseInt(document.getElementById('age').value);
-            const gender = selectedGender;
-            let premium = 0;
-
-            if (!pricingTable) {
-                console.log("Pricing table not loaded yet");
-                return;
-            }
-
-            console.log(`Updating premium for role: ${role}, age: ${age}, gender: ${gender}, cover: ${selectedCover}`);
-
-            const roleNode = pricingTable.querySelector(`role[name="${role}"]`);
-            if (!roleNode) {
-                console.error(`Role "${role}" not found in pricing table`);
-                return;
-            }
-
-            const genderNode = roleNode.querySelector(`gender[type="${gender}"]`);
-            if (!genderNode) {
-                console.error(`Gender "${gender}" not found for role "${role}"`);
-                return;
-            }
-
-            const ageNode = genderNode.querySelector(`age[value="${age}"]`);
-            if (!ageNode) {
-                console.error(`Age "${age}" not found for role "${role}" and gender "${gender}"`);
-                return;
-            }
-
-            if (selectedCover === 'protectors') {
-                const protectorNode = ageNode.querySelector(`cover_option[type="protectors"] protectors[type="${selectedProtector}"]`);
-                if (protectorNode) {
-                    premium = parseFloat(protectorNode.textContent);
+                    const protectorNode = ageNode.querySelector(`cover_option[type="protectors"] protectors[type="${selectedProtector}"]`);
+                    if (protectorNode) {
+                        premium = parseFloat(protectorNode.textContent);
+                    } else {
+                        console.error(`Protector "${selectedProtector}" not found for age "${age}"`);
+                    }
                 } else {
-                    console.error(`Protector "${selectedProtector}" not found for age "${age}"`);
+                    const coverAmount = document.getElementById('cover-amount').value;
+                    console.log(`Searching for cover amount: ${coverAmount} in ${selectedCover} cover`);
+                    const coverOptionNode = ageNode.querySelector(`cover_option[type="${selectedCover}"]`);
+                    if (coverOptionNode) {
+                        const coverNode = coverOptionNode.querySelector(`cover[amount="${coverAmount}"]`);
+                        if (coverNode) {
+                            premium = parseFloat(coverNode.textContent);
+                        } else {
+                            console.error(`Cover amount "${coverAmount}" not found for ${selectedCover} cover`);
+                            // Fallback: use the first available cover amount
+                            const firstCoverNode = coverOptionNode.querySelector('cover');
+                            if (firstCoverNode) {
+                                premium = parseFloat(firstCoverNode.textContent);
+                                console.log(`Fallback to first available cover amount: ${firstCoverNode.getAttribute('amount')}`);
+                            }
+                        }
+                    } else {
+                        console.error(`Cover option "${selectedCover}" not found for age "${age}"`);
+                    }
                 }
-            } else {
-                const coverAmount = document.getElementById('cover-amount').value;
-                const coverNode = ageNode.querySelector(`cover_option[type="${selectedCover}"] cover[amount="${coverAmount}"]`);
-                if (coverNode) {
-                    premium = parseFloat(coverNode.textContent);
-                } else {
-                    console.error(`Cover amount "${coverAmount}" not found for ${selectedCover} cover`);
-                }
+
+                console.log(`Calculated premium: R${premium.toFixed(2)}`);
+                document.getElementById('total').innerText = `R${premium.toFixed(2)} pm`;
             }
 
-            console.log(`Calculated premium: R${premium.toFixed(2)}`);
-            document.getElementById('total').innerText = `R${premium.toFixed(2)} pm`;
-        }
-
-        // Add event listeners to trigger updatePremium
-        document.getElementById('role').addEventListener('change', updatePremium);
-        document.getElementById('age').addEventListener('input', updatePremium);
-        document.getElementById('cover-amount').addEventListener('change', updatePremium);
-
-        // Initialize the default selection
-        selectCover('protectors');
-        selectProtector('education');
-        updateCoverOptions();
-        updatePremium(); // Call updatePremium initially to set the correct value
+            function selectCover(cover) {
+                selectedCover = cover;
+                document.querySelectorAll('.cover-options button').forEach(btn => btn.classList.remove('active'));
+                document.getElementById(cover).classList.add('active');
+                if (cover === 'protectors') {
+                    document.getElementById('essential-diamond-options').style.display = 'none';
+                    document.getElementById('protectors-options').style.display = 'block';
+                } else {
+                    document.getElementById('essential-diamond-options').style.display = 'block';
+                    document.getElementById('protectors-options').style.display = 'none';
+                    updateCoverOptions();
+                }
+                updatePremium();
+            }
       </script>
 </body>
 </html>
