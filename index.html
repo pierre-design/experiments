@@ -315,7 +315,7 @@
                 }
             }
 
-console.log(`Calculated premium: R${premium.toFixed(2)}`);
+    console.log(`Calculated premium: R${premium.toFixed(2)}`);
 
     // Update the total amount and show the icon with transition
     const totalElement = document.getElementById('total');
@@ -323,8 +323,8 @@ console.log(`Calculated premium: R${premium.toFixed(2)}`);
 
     totalElement.textContent = `R${premium.toFixed(2)} pm`;
 
-    // Reset opacity to 0
-    iconElement.style.opacity = '0';
+    // Reset scale for icon and opacity for total
+    iconElement.style.transform = 'scale(0)';
     totalElement.style.opacity = '0';
 
     // Force a reflow to ensure the transition runs again
@@ -333,7 +333,7 @@ console.log(`Calculated premium: R${premium.toFixed(2)}`);
 
     // Set the final styles to trigger the transition after a small delay
     setTimeout(() => {
-        iconElement.style.opacity = '1';
+        iconElement.style.transform = 'scale(1)';
         totalElement.style.opacity = '1';
     }, 50);
 }
