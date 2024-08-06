@@ -67,7 +67,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 .calculator .input-group #age {
     font-size: 72px;
@@ -79,7 +78,7 @@ body {
     border-bottom: 1px solid white;
     border-radius: 0px;
     background: transparent;
-    width: 50%;
+    width: 55%;
     text-align: center;
     outline: none;
     display: flex;
@@ -98,7 +97,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    width: 50%;
+    width: 40%;
     background-color: #393939;
     padding: 16px;
     border-radius: 8px;
