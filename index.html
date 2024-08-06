@@ -10,17 +10,18 @@
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <div class="calculator">
-    <h1>Pricing <br>Calculator</h1>
-    <div class="input-group">
-        <select id="role" onchange="updatePremium(); checkAgeLimits(); toggleCoverOptions();">
-            <option value="main">Main Member</option>
-            <option value="spouse">Spouse</option>
-            <option value="child">Child</option>
-            <option value="parent">Parent</option>
-            <option value="extended">Extended Family</option>
-        </select>
-    </div>
+  <div class="calculator-container">
+    <div class="calculator">
+      <h1>Pricing <br>Calculator</h1>
+      <div class="input-group">
+          <select id="role" onchange="updatePremium(); checkAgeLimits(); toggleCoverOptions();">
+              <option value="main">Main Member</option>
+              <option value="spouse">Spouse</option>
+              <option value="child">Child</option>
+              <option value="parent">Parent</option>
+              <option value="extended">Extended Family</option>
+          </select>
+      </div>
     <div class="bigger-group">
         <div class="input-group age-container">
             <input type="number" id="age" class="age-input" value="36" oninput="updatePremium(); checkAgeLimits();">
@@ -46,14 +47,9 @@
         </div>
     </div>
     <div class="input-group" id="essential-diamond-options" style="display: none;">
-        <div class="custom-select">
-            <select id="cover-amount" onchange="updatePremium()">
-                <!-- Options will be added dynamically -->
-            </select>
-            <div class="custom-select-options" id="cover-amount-options">
-                <!-- Options will be added dynamically -->
-            </div>
-        </div>
+        <select id="cover-amount" onchange="updatePremium()">
+            <!-- Options will be added dynamically -->
+        </select>
     </div>
     <div class="input-group" id="protectors-options">
         <div class="protector-block" onclick="selectProtector('education')">
@@ -87,7 +83,8 @@
     </div>
     <div class="total" id="total">R130.00 pm</div>
   </div>
-  <div class="terms-conditions">
+</div>
+<div class="terms-conditions">
   T&Cs Apply. Authorised FSP 50594. Underwritten by Guardrisk Life Limited. Premiums are risk profile dependent, subject to change & guaranteed for 12 months. For full policy T&Cs & more info, visit www.onespark.co.za
 </div>
 
@@ -137,9 +134,7 @@
 
     function updateCoverOptions() {
         const coverAmountSelect = document.getElementById('cover-amount');
-        const coverAmountOptions = document.getElementById('cover-amount-options');
         coverAmountSelect.innerHTML = '';
-        coverAmountOptions.innerHTML = '';
 
         const coverAmounts = selectedCover === 'essential' ? [
             70000, 60000, 50000, 40000, 30000, 20000, 10000, 5000
@@ -152,41 +147,11 @@
             option.value = amount;
             option.textContent = 'R' + amount.toLocaleString();
             coverAmountSelect.appendChild(option);
-
-            const customOption = document.createElement('div');
-            customOption.className = 'custom-select-option';
-            customOption.textContent = 'R' + amount.toLocaleString();
-            customOption.onclick = function() {
-                coverAmountSelect.value = amount;
-                coverAmountOptions.style.display = 'none';
-                updatePremium();
-            };
-            coverAmountOptions.appendChild(customOption);
         });
 
         coverAmountSelect.selectedIndex = 0;
-        updatePremium();
+        updatePremium(); // Call updatePremium after updating cover options
     }
-
-    // Add this new function to toggle the custom dropdown
-    function toggleCustomDropdown() {
-        const coverAmountOptions = document.getElementById('cover-amount-options');
-        coverAmountOptions.style.display = coverAmountOptions.style.display === 'none' ? 'block' : 'none';
-    }
-
-    // Add event listeners
-    document.getElementById('cover-amount').addEventListener('click', function(event) {
-        event.preventDefault();
-        toggleCustomDropdown();
-    });
-
-    document.addEventListener('click', function(event) {
-        const coverAmountOptions = document.getElementById('cover-amount-options');
-        const coverAmountSelect = document.getElementById('cover-amount');
-        if (!coverAmountSelect.contains(event.target) && !coverAmountOptions.contains(event.target)) {
-            coverAmountOptions.style.display = 'none';
-        }
-    });
 
     function selectProtector(protector) {
         selectedProtector = protector;

@@ -2,6 +2,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -22,6 +23,7 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 10px;
+    font-weight: 300;
     color: #787878;
     background-color: #2e2e2e;
 }
@@ -39,7 +41,6 @@ body {
 }
 .calculator .input-group {
     margin: 8px 0;
-    position: relative; /* Add this to make it a positioning context for the dropdown */
 }
 .calculator .bigger-group {
     margin: 0;
@@ -98,7 +99,7 @@ body {
 }
 .calculator .input-group select {
     width: 100%;
-    padding: 16px;
+    padding:16px;
     outline: none;
     background-color: #444;
     color: white;
@@ -108,48 +109,13 @@ body {
     border-radius: 8px;
     background: url("data:image/svg+xml,<svg height='12px' width='12px' viewBox='0 0 16 16' fill='%23ffffff' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
     background-position: calc(100% - 1rem) center !important;
-    -moz-appearance: none !important;
+    -moz-appearance:none !important;
     -webkit-appearance: none !important;
     appearance: none !important;
     padding-right: 2rem !important;
 }
 .calculator .input-group select:focus {
     border: 2px solid #00dbe5;
-}
-/* New styles for dropdown positioning */
-.calculator .input-group select {
-    position: relative;
-    z-index: 1;
-}
-.calculator .input-group select option {
-    background-color: #444;
-    color: white;
-    padding: 16px;
-}
-/* Custom dropdown styles */
-.calculator .input-group .custom-select {
-    position: relative;
-    width: 100%;
-}
-.calculator .input-group .custom-select-options {
-    position: absolute;
-    top: calc(100% + 4px); /* Position 4px below the select element */
-    left: 0;
-    width: 100%;
-    background-color: #444;
-    border: 2px solid #787878;
-    border-radius: 8px;
-    max-height: 200px;
-    overflow-y: auto;
-    z-index: 2;
-    display: none;
-}
-.calculator .input-group .custom-select-option {
-    padding: 16px;
-    cursor: pointer;
-}
-.calculator .input-group .custom-select-option:hover {
-    background-color: #555;
 }
 .calculator .toggle-switch {
     position: relative;
