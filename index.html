@@ -22,9 +22,9 @@
               <option value="extended">Extended Family</option>
           </select>
       </div>
-    <div class="bigger-group">
+      <div class="bigger-group">
         <div class="input-group age-container">
-            <input type="number" id="age" class="age-input" value="36" oninput="updatePremium(); checkAgeLimits();">
+            <input type="number" id="age" class="age-input" value="36" min="0" max="99" oninput="limitAge(this)" onchange="updatePremium(); checkAgeLimits();">
             <span id="error-label" class="error-label">Too young or too old</span>
         </div>
         <div class="input-group">
@@ -34,7 +34,7 @@
                 <div class="slider"></div>
             </div>
         </div>
-    </div>
+      </div>
 
     <div class="input-group">
         <label for="cover-amount">Cover</label>
@@ -179,7 +179,23 @@
         }
         updatePremium();
     }
+    function limitAge(input) {
+        // Remove any non-digit characters
+        input.value = input.value.replace(/\D/g, '');
 
+        // Ensure the value is between 0 and 99
+        let age = parseInt(input.value, 10);
+        if (isNaN(age)) {
+            input.value = '';
+        } else if (age < 0) {
+            input.value = '0';
+        } else if (age > 99) {
+            input.value = '99';
+        } else if (input.value.length > 2) {
+            // If more than 2 digits, keep only the last 2
+            input.value = input.value.slice(-2);
+        }
+    }
     function checkAgeLimits() {
         const role = document.getElementById('role').value;
         const age = parseInt(document.getElementById('age').value);
