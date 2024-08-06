@@ -38,6 +38,7 @@ body {
 }
 .calculator h1 {
     text-align: left;
+    font-size: 16px;
     color: #787878;
     margin: 0px;
     line-height: 100%;
