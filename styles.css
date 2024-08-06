@@ -261,7 +261,7 @@ body {
     left: 0;
     top: 25%;
     opacity: 0;
-    transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in-out;
     width: 32px;
     height: 32px;
 }
@@ -271,5 +271,5 @@ body {
     font-size: 32px;
     color: #ffffff;
     opacity: 0;
-    transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in-out;
 }
