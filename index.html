@@ -324,7 +324,7 @@
             totalElement.textContent = `R${premium.toFixed(2)} pm`;
 
             // Set initial styles for the icon and total elements
-            iconElement.style.fillOpacity = '0';
+            iconElement.style.'fill-opacity' = '0';
             totalElement.style.opacity = '0';
 
             // Force a reflow to ensure the transition runs again
@@ -332,7 +332,7 @@
             void iconElement.offsetWidth;
 
             // Set the final styles to trigger the transition
-            iconElement.style.fillOpacity = '1';
+            iconElement.style.'fill-opacity' = '1';
             totalElement.style.opacity = '0';
         }
 
