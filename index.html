@@ -126,6 +126,18 @@
             border-radius: 20px;
             color: #4B4B4B;
             font-weight: 500;
+            z-index: 1; /* Ensure text is above the slider */
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+        .toggle-switch .slider {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            width: calc(50% - 5px);
+            height: calc(100% - 10px);
+            background-color: #ffffff;
+            border-radius: 20px;
+            transition: transform 0.3s ease;
         }
         .toggle-switch .active {
             background-color: #ffffff;
@@ -224,9 +236,10 @@
             <span id="error-label" class="error-label">Too young or too old</span>
         </div>
         <div class="input-group">
-            <div class="toggle-switch" onclick="toggleGender()">
+            <div class="toggle-switch" onclick="toggleGender()" data-gender="male">
                 <div id="male" class="active">Male</div>
                 <div id="female">Female</div>
+                <div class="slider"></div>
             </div>
         </div>
     </div>
@@ -355,12 +368,15 @@
     }
 
     function toggleGender() {
+        const toggleSwitch = document.querySelector('.toggle-switch');
         if (selectedGender === 'male') {
             selectedGender = 'female';
+            toggleSwitch.setAttribute('data-gender', 'female');
             document.getElementById('male').classList.remove('active');
             document.getElementById('female').classList.add('active');
         } else {
             selectedGender = 'male';
+            toggleSwitch.setAttribute('data-gender', 'male');
             document.getElementById('male').classList.add('active');
             document.getElementById('female').classList.remove('active');
         }
