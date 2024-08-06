@@ -201,7 +201,7 @@ body {
     color: #1e1e1e;
 }
 .divider {
-    width:24px;
+    max-width: 8px;
     height:auto;
     display:inline-block;
 }
