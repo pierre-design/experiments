@@ -318,23 +318,25 @@
             console.log(`Calculated premium: R${premium.toFixed(2)}`);
 
             // Update the total amount and show the icon with transition
-                const totalElement = document.getElementById('total');
-                const iconElement = document.getElementById('total-icon');
+            const totalElement = document.getElementById('total');
+            const iconElement = document.getElementById('total-icon');
 
-                totalElement.textContent = `R${premium.toFixed(2)} pm`;
+            totalElement.textContent = `R${premium.toFixed(2)} pm`;
 
-                // Remove the 'show' class to reset the transition
-                totalElement.classList.remove('show');
-                iconElement.classList.remove('show');
+            // Set initial styles for the icon and total elements
+            iconElement.style.opacity = '0';
+            iconElement.style.transform = 'scale(0)';
+            totalElement.style.opacity = '0';
 
-                // Force a reflow to ensure the transition runs again
-                void totalElement.offsetWidth;
-                void iconElement.offsetWidth;
+            // Force a reflow to ensure the transition runs again
+            void totalElement.offsetWidth;
+            void iconElement.offsetWidth;
 
-                // Add the 'show' class to trigger the transition
-                totalElement.classList.add('show');
-                iconElement.classList.add('show');
-            }
+            // Set the final styles to trigger the transition
+            iconElement.style.opacity = '1';
+            iconElement.style.transform = 'scale(1)';
+            totalElement.style.opacity = '1';
+        }
 
         // Add event listeners to trigger updatePremium
         document.getElementById('role').addEventListener('change', updatePremium);

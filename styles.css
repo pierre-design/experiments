@@ -266,10 +266,6 @@ body {
     width: 32px;
     height: 32px;
 }
-.total-icon.show {
-    opacity: 1;
-    transform: scale(1);
-}
 .total {
     text-align: right;
     font-weight: 700;
@@ -277,7 +273,4 @@ body {
     color: #ffffff;
     opacity: 0;
     transition: opacity 0.3s ease-in;
-}
-.total.show {
-    opacity: 1;
 }
