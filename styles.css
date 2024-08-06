@@ -16,22 +16,24 @@ body {
 .calculator-container {
     flex: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start; /* Changed from center to flex-start */
     align-items: center;
+    padding-top: 24px; /* Added padding to give some space at the top */
+    overflow-y: auto; /* Added to enable scrolling if content overflows */
+}
+.calculator {
+    width: 320px;
+    max-width: 100%;
+    padding: 24px;
+    border-radius: 12px;
 }
 .terms-conditions {
     text-align: center;
-    padding: 8px 24px;
-    font-size: 8px;
-    font-weight: 200;
+    padding: 10px;
+    font-size: 10px;
     color: #787878;
-    background-color: #393939;
-}
-.calculator {
-    padding: 24px;
-    border-radius: 12px;
-    width: 320px;
-    max-width: 100%;
+    background-color: #2e2e2e;
 }
 .calculator h1 {
     text-align: left;
