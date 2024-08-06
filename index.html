@@ -46,9 +46,14 @@
         </div>
     </div>
     <div class="input-group" id="essential-diamond-options" style="display: none;">
-        <select id="cover-amount" onchange="updatePremium()">
-            <!-- Options will be added dynamically -->
-        </select>
+        <div class="custom-select">
+            <select id="cover-amount" onchange="updatePremium()">
+                <!-- Options will be added dynamically -->
+            </select>
+            <div class="custom-select-options" id="cover-amount-options">
+                <!-- Options will be added dynamically -->
+            </div>
+        </div>
     </div>
     <div class="input-group" id="protectors-options">
         <div class="protector-block" onclick="selectProtector('education')">
@@ -129,7 +134,9 @@
 
     function updateCoverOptions() {
         const coverAmountSelect = document.getElementById('cover-amount');
+        const coverAmountOptions = document.getElementById('cover-amount-options');
         coverAmountSelect.innerHTML = '';
+        coverAmountOptions.innerHTML = '';
 
         const coverAmounts = selectedCover === 'essential' ? [
             70000, 60000, 50000, 40000, 30000, 20000, 10000, 5000
@@ -142,11 +149,41 @@
             option.value = amount;
             option.textContent = 'R' + amount.toLocaleString();
             coverAmountSelect.appendChild(option);
+
+            const customOption = document.createElement('div');
+            customOption.className = 'custom-select-option';
+            customOption.textContent = 'R' + amount.toLocaleString();
+            customOption.onclick = function() {
+                coverAmountSelect.value = amount;
+                coverAmountOptions.style.display = 'none';
+                updatePremium();
+            };
+            coverAmountOptions.appendChild(customOption);
         });
 
         coverAmountSelect.selectedIndex = 0;
-        updatePremium(); // Call updatePremium after updating cover options
+        updatePremium();
     }
+
+    // Add this new function to toggle the custom dropdown
+    function toggleCustomDropdown() {
+        const coverAmountOptions = document.getElementById('cover-amount-options');
+        coverAmountOptions.style.display = coverAmountOptions.style.display === 'none' ? 'block' : 'none';
+    }
+
+    // Add event listeners
+    document.getElementById('cover-amount').addEventListener('click', function(event) {
+        event.preventDefault();
+        toggleCustomDropdown();
+    });
+
+    document.addEventListener('click', function(event) {
+        const coverAmountOptions = document.getElementById('cover-amount-options');
+        const coverAmountSelect = document.getElementById('cover-amount');
+        if (!coverAmountSelect.contains(event.target) && !coverAmountOptions.contains(event.target)) {
+            coverAmountOptions.style.display = 'none';
+        }
+    });
 
     function selectProtector(protector) {
         selectedProtector = protector;
