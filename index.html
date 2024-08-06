@@ -42,7 +42,7 @@
             <button id="essential" onclick="selectCover('essential')">Essential</button>
             <div class="divider"></div>
             <button id="diamond" onclick="selectCover('diamond')">Diamond</button>
-            <div class="divider"></div>
+            <div class="divider" id="protectors-divider"></div>
             <button id="protectors" class="active" onclick="selectCover('protectors')">Protectors</button>
         </div>
     </div>
@@ -200,22 +200,32 @@
         }
     }
 
-        function toggleCoverOptions() {
+      function toggleCoverOptions() {
             const role = document.getElementById('role').value;
             const protectorsButton = document.getElementById('protectors');
+            const protectorsDivider = document.getElementById('protectors-divider');
+
             if (role !== 'main') {
                 protectorsButton.style.display = 'none';
-                document.getElementById('essential').style.width = '-webkit-fill-available;';
-                document.getElementById('diamond').style.width = '-webkit-fill-available;';
+                protectorsDivider.style.display = 'none';
+                document.getElementById('essential').style.width = 'calc(50% - 12px)';
+                document.getElementById('diamond').style.width = 'calc(50% - 12px)';
                 if (selectedCover === 'protectors') {
                     selectCover('essential');
                 }
             } else {
                 protectorsButton.style.display = 'block';
-                document.getElementById('essential').style.width = '-webkit-fill-available;';
-                document.getElementById('diamond').style.width = '-webkit-fill-available;';
+                protectorsDivider.style.display = 'block';
+                document.getElementById('essential').style.width = 'calc(33.33% - 16px)';
+                document.getElementById('diamond').style.width = 'calc(33.33% - 16px)';
             }
         }
+
+        // Add event listener to role select
+        document.getElementById('role').addEventListener('change', toggleCoverOptions);
+
+        // Call toggleCoverOptions initially to set the correct state
+        toggleCoverOptions();
 
         function updatePremium() {
             checkAgeLimits();
