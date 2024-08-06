@@ -248,16 +248,17 @@
         // Call toggleCoverOptions initially to set the correct state
         toggleCoverOptions();
 
-        checkAgeLimits();
-        const role = document.getElementById('role').value;
-        const age = parseInt(document.getElementById('age').value);
-        const gender = selectedGender;
-        let premium = 0;
+        function updatePremium() {
+            checkAgeLimits();
+            const role = document.getElementById('role').value;
+            const age = parseInt(document.getElementById('age').value);
+            const gender = selectedGender;
+            let premium = 0;
 
-        if (!pricingTable) {
-            console.log("Pricing table not loaded yet");
-            return;
-        }
+            if (!pricingTable) {
+                console.log("Pricing table not loaded yet");
+                return;
+            }
 
             console.log(`Updating premium for role: ${role}, age: ${age}, gender: ${gender}, cover: ${selectedCover}`);
 
@@ -320,8 +321,6 @@
             const totalElement = document.getElementById('total');
             const iconElement = document.getElementById('total-icon');
 
-            document.getElementById('total').innerText = `R${premium.toFixed(2)} pm`;
-
             totalElement.textContent = `R${premium.toFixed(2)} pm`;
 
             // Remove the 'show' class to reset the transition
@@ -335,7 +334,7 @@
             // Add the 'show' class to trigger the transition
             totalElement.classList.add('show');
             iconElement.classList.add('show');
-          }
+        }
 
         // Add event listeners to trigger updatePremium
         document.getElementById('role').addEventListener('change', updatePremium);
