@@ -22,10 +22,10 @@ body {
 .terms-conditions {
     text-align: center;
     padding: 10px;
-    font-size: 10px;
-    font-weight: 300;
+    font-size: 8px;
+    font-weight: 200;
     color: #787878;
-    background-color: #2e2e2e;
+    background-color: #393939;
 }
 .calculator {
     padding: 24px;
