@@ -248,17 +248,17 @@
         // Call toggleCoverOptions initially to set the correct state
         toggleCoverOptions();
 
-        function updatePremium() {
-            checkAgeLimits();
-            const role = document.getElementById('role').value;
-            const age = parseInt(document.getElementById('age').value);
-            const gender = selectedGender;
-            let premium = 0;
+function updatePremium() {
+    checkAgeLimits();
+    const role = document.getElementById('role').value;
+    const age = parseInt(document.getElementById('age').value);
+    const gender = selectedGender;
+    let premium = 0;
 
-            if (!pricingTable) {
-                console.log("Pricing table not loaded yet");
-                return;
-            }
+    if (!pricingTable) {
+        console.log("Pricing table not loaded yet");
+        return;
+    }
 
             console.log(`Updating premium for role: ${role}, age: ${age}, gender: ${gender}, cover: ${selectedCover}`);
 
@@ -323,7 +323,14 @@
 
     totalElement.textContent = `R${premium.toFixed(2)} pm`;
 
+    // Clear any existing timeouts
+    if (window.updatePremiumTimeout) {
+        clearTimeout(window.updatePremiumTimeout);
+    }
+
     // Reset scale for icon and opacity for total
+    iconElement.style.transition = 'none';
+    totalElement.style.transition = 'none';
     iconElement.style.transform = 'scale(0)';
     totalElement.style.opacity = '0';
 
@@ -331,11 +338,40 @@
     void totalElement.offsetWidth;
     void iconElement.offsetWidth;
 
+    // Re-enable transitions
+    iconElement.style.transition = '';
+    totalElement.style.transition = '';
+
     // Set the final styles to trigger the transition after a small delay
-    setTimeout(() => {
+    window.updatePremiumTimeout = setTimeout(() => {
         iconElement.style.transform = 'scale(1)';
         totalElement.style.opacity = '1';
     }, 50);
+}
+
+// Modify the initial calls
+document.addEventListener('DOMContentLoaded', () => {
+    selectCover('protectors');
+    selectProtector('education');
+    updateCoverOptions();
+    // Remove the initial updatePremium call from here
+});
+
+// Call updatePremium after the pricing table is loaded
+async function fetchPricingTable() {
+    try {
+        const response = await fetch('https://raw.githubusercontent.com/pierre-design/experiments/main/pricing_table.xml');
+        const text = await response.text();
+        const parser = new DOMParser();
+        pricingTable = parser.parseFromString(text, "text/xml");
+        console.log("Pricing table loaded successfully");
+        updatePremium(); // Call updatePremium only after loading the pricing table
+    } catch (error) {
+        console.error("Error loading pricing table:", error);
+    }
+}
+
+fetchPricingTable();
 }
         // Add event listeners to trigger updatePremium
         document.getElementById('role').addEventListener('change', updatePremium);
