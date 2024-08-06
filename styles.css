@@ -262,9 +262,10 @@ body {
     top: 25%;
     opacity: 0;
     transform: scale(0);
-    transition: opacity 0.3s ease-in, transform 0.3s ease-in;
     width: 32px;
     height: 32px;
+    -webkit-transition: fill-opacity 1s;
+    transition: fill-opacity 1s;
 }
 .total {
     text-align: right;
