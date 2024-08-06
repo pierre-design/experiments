@@ -344,5 +344,36 @@
         iconElement.style.transform = 'scale(0)';
         totalElement.style.opacity = '0';
 
-        // Force a reflow to ensure the transition runs again
-        void totalElement
+                // Force a reflow to ensure the transition runs again
+        void totalElement.offsetWidth;
+        void iconElement.offsetWidth;
+
+        // Re-enable transitions
+        iconElement.style.transition = '';
+        totalElement.style.transition = '';
+
+        // Set the final styles to trigger the transition after a small delay
+        window.updatePremiumTimeout = setTimeout(() => {
+            iconElement.style.transform = 'scale(1)';
+            totalElement.style.opacity = '1';
+        }, 50);
+    }
+
+    // Add event listeners to trigger updatePremium
+    document.getElementById('role').addEventListener('change', updatePremium);
+    document.getElementById('age').addEventListener('input', updatePremium);
+    document.getElementById('cover-amount').addEventListener('change', updatePremium);
+
+    // Initialize the default selection
+    document.addEventListener('DOMContentLoaded', () => {
+        selectCover('protectors');
+        selectProtector('education');
+        updateCoverOptions();
+        toggleCoverOptions();
+    });
+
+    // Fetch the pricing table and initialize the calculator
+    fetchPricingTable();
+  </script>
+</body>
+</html>
