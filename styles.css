@@ -260,8 +260,8 @@ body {
     position: absolute;
     left: 0;
     top: 25%;
-    fill-opacity: 0;
-    transition: fill-opacity 1s ease-in;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
     width: 32px;
     height: 32px;
 }
