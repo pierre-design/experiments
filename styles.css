@@ -73,11 +73,12 @@ body {
     font-weight: 700;
     margin-bottom: 5px;
     color: #00dbe5;
+    position: relative;
     border: none;
     border-bottom: 1px solid white;
     border-radius: 0px;
     background: transparent;
-    width: 44%;
+    width: 50%;
     text-align: center;
     outline: none;
     display: flex;
