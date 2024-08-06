@@ -115,6 +115,8 @@ body {
     margin: 10px 0;
     height: 40px;
     overflow: hidden;
+    outline: none; /* Remove the default outline */
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile devices */
 }
 .toggle-switch div {
     flex: 1;
@@ -125,6 +127,7 @@ body {
     z-index: 1;
     transition: color 0.3s ease;
     position: relative;
+    user-select: none; /* Prevent text selection */
 }
 .toggle-switch .slider {
     position: absolute;
@@ -136,6 +139,12 @@ body {
     border-radius: 20px;
     transition: transform 0.3s ease;
     z-index: 0;
+}
+.toggle-switch:focus:not(:focus-visible) {
+    outline: none;
+}
+.toggle-switch:focus-visible {
+    box-shadow: 0 0 0 2px #00dbe5;
 }
 .toggle-switch[data-gender="female"] .slider {
     transform: translateX(calc(100% + 5px));
