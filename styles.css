@@ -258,7 +258,7 @@ body {
  }
  .total-icon {
      position: absolute;
-     left: -18px;  /* Adjust this value as needed */
+     left:0px;  /* Adjust this value as needed */
      top: 50%;
      transform: translateY(-50%);
      width: 32px;
