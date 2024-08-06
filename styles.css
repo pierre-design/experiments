@@ -263,8 +263,6 @@ body {
      transform: translateY(-50%);
      width: 32px;
      height: 32px;
-     opacity: 0;
-     transition: opacity 0.3s ease-in;
  }
  .total {
      text-align: right;
