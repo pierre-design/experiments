@@ -1,13 +1,17 @@
 # 🚀 OneSpark Pricing Calculator
 
-Welcome to the OneSpark Pricing Calculator! We've crafted this nifty tool to help you figure out the perfect plan for you and your loved ones. With just a few clicks, you can get a clear picture of your premium, all while enjoying our friendly, no-nonsense interface. Let's get you covered, the OneSpark way! 🎉
+Welcome to the OneSpark Pricing Calculator! Get the perfect plan for you and your loved ones with just a few clicks. Let's get you covered, the OneSpark way! 🎉
 
 ## What’s Inside?
-1. **Role Selector:** Choose who you’re insuring – Main Member, Spouse, Child, Parent, or Extended Family.
-2. **Age Input:** Enter the age of the insured person. Easy peasy!
-3. **Gender Toggle:** Male or Female? Just flip the switch.
-4. **Cover Options:** Pick between Essential, Diamond, and Protectors covers. Each has different levels to suit your needs.
-5. **Dynamic Pricing:** Watch the magic happen as your premium updates in real-time based on your selections.✨
+**Role Selector:** Choose who you’re insuring – Main Member, Spouse, Child, Parent, or Extended Family.
+
+**Age Input:** Enter the age of the insured person. Easy peasy!
+
+**Gender Toggle:** Male or Female? Just flip the switch.
+
+**Cover Options:** Pick between Essential, Diamond, and Protectors covers. Each has different levels to suit your needs.
+
+**Dynamic Pricing:** Watch the magic happen as your premium updates in real-time based on your selections.✨
 
 ## How to Use:
 1. **Select the Role:** Start by picking the role of the person you want to insure.
@@ -17,19 +21,15 @@ Welcome to the OneSpark Pricing Calculator! We've crafted this nifty tool to hel
 5. **Check the Premium:** Your monthly premium is displayed right at the bottom. Voila!
 
 ## Why OneSpark?
-At OneSpark, we believe insurance should be as simple and straightforward as it is essential. Our calculator embodies this philosophy – no jargon, no hassle, just the information you need to make the best decision for you and your family. We’re all about putting people over policies, and this tool is designed to do just that.
+At OneSpark, we believe insurance should be simple and fun. No jargon, no hassle, just the info you need. We’re all about **putting people over policies**.
 
 ## Need Help?
-If you have any questions or run into any issues, don’t hesitate to reach out to our friendly support team. We’re always glad to help! 😊
+Got questions? Our friendly support team is always glad to help! 😊
 
 ## Join the OneSpark Family!
-By using the OneSpark Pricing Calculator, you're taking the first step towards smart, people-centric insurance. Welcome to the family – we're thrilled to have you with us!
-
----
-
-Let’s make insurance simple, human, and a little bit fun – the OneSpark way! 🌟
+Using the OneSpark Pricing Calculator is the first step towards smart, people-centric insurance. Welcome to the family – we're thrilled to have you with us!
 
 ---
 
 **Happy Calculating!**
-The OneSpark Team
+**The OneSpark Team**
