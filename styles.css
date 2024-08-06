@@ -247,3 +247,27 @@ body {
     font-weight: 600;
     opacity: 1; /* Increase opacity for better visibility */
 }
+.total-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.total-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+.total {
+    text-align: right;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+.show {
+    opacity: 1;
+}
