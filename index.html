@@ -331,7 +331,7 @@
         const checkmarkIcon = document.getElementById('total-icon');
         const errorIcon = document.getElementById('error-icon');
 
-        totalElement.textContent = isError ? 'Error' : `R${premium.toFixed(2)} pm`;
+        totalElement.textContent = isError ? 'Try Again' : `R${premium.toFixed(2)} pm`;
 
         // Clear any existing timeouts
         if (window.updatePremiumTimeout) {
