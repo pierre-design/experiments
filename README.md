@@ -1,4 +1,4 @@
-# 🚀 OneSpark Pricing Calculator
+# ✨ SparkCover - Your Pricing Calculator
 
 Welcome to the OneSpark Pricing Calculator! Get the perfect plan for you and your loved ones with just a few clicks. Let's get you covered, the OneSpark way! 🎉
 
