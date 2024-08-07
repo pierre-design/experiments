@@ -29,13 +29,16 @@ body {
     width: 320px;
     max-width: 100%;
 }
-.terms-conditions {
-    text-align: center;
-    padding: 16px 24px;
-    font-size: 8px;
-    font-weight: 200;
+.calculator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+.version-number {
+    font-size: 12px;
     color: #787878;
-    background-color: #393939;
+    font-weight: 400;
 }
 .calculator h1 {
     text-align: left;
@@ -273,4 +276,12 @@ body {
 }
 .total.error {
     color: #686868;
+}
+.terms-conditions {
+    text-align: center;
+    padding: 16px 24px;
+    font-size: 8px;
+    font-weight: 200;
+    color: #787878;
+    background-color: #393939;
 }
