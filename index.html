@@ -8,26 +8,6 @@
     <title>Pricing Calculator</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
-    <style>
-        .total-icon {
-            position: absolute;
-            left: 0;
-            top: 25%;
-            transform: scale(0);
-            transition: transform 0.3s ease-in-out;
-            width: 32px;
-            height: 32px;
-        }
-
-        .total {
-            text-align: right;
-            font-weight: 700;
-            font-size: 32px;
-            color: #ffffff;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
-    </style>
 </head>
 <body>
   <div class="calculator-container">
@@ -100,12 +80,16 @@
             </div>
         </div>
     </div>
-      <div class="total-container">
-        <svg id="total-icon" class="total-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
-          <path class="cls-1" d="M23.1,9.1l-10.4,10.4-3.8-3.8c-.2-.2-.5-.2-.7,0l-1.1,1.1c-.2.2-.2.5,0,.7l5.3,5.3c.2.2.5.2.7,0l11.8-11.8c.2-.2.2-.5,0-.7l-1.1-1.1c-.2-.2-.5-.2-.7,0Z" fill="#00dbe5"/>
-        </svg>
-        <div id="total" class="total"></div>
-      </div>
+    <div class="total-container">
+      <svg id="total-icon" class="total-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+        <path class="cls-1" d="M23.1,9.1l-10.4,10.4-3.8-3.8c-.2-.2-.5-.2-.7,0l-1.1,1.1c-.2.2-.2.5,0,.7l5.3,5.3c.2.2.5.2.7,0l11.8-11.8c.2-.2.2-.5,0-.7l-1.1-1.1c-.2-.2-.5-.2-.7,0Z" fill="#00dbe5"/>
+      </svg>
+      <svg id="error-icon" class="total-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+        <path class="cls-1" d="M15.7,24c.9,0,1.7-.8,1.7-1.7s-.8-1.7-1.7-1.7-1.7.8-1.7,1.7.8,1.7,1.7,1.7Z" fill="#EB5757"/>
+        <path class="cls-1" d="M15.1,18.9h1.2c.3,0,.6-.2.6-.5l.5-9.7c0-.3-.2-.6-.5-.6h-2.2c-.3,0-.6.3-.6.6h0s.5,9.7.5,9.7c0,.3.3.5.6.5Z" fill="#EB5757"/>
+      </svg>
+      <div id="total" class="total"></div>
+    </div>
     </div>
   </div>
   <div class="terms-conditions">
@@ -264,97 +248,127 @@
         const age = parseInt(document.getElementById('age').value);
         const gender = selectedGender;
         let premium = 0;
+        let isError = false;
 
         if (!pricingTable) {
             console.log("Pricing table not loaded yet");
-            return;
+            isError = true;
         }
 
         console.log(`Updating premium for role: ${role}, age: ${age}, gender: ${gender}, cover: ${selectedCover}`);
 
-        const roleNode = pricingTable.querySelector(`role[name="${role}"]`);
-        if (!roleNode) {
-            console.error(`Role "${role}" not found in pricing table`);
-            return;
-        }
-
-        const genderNode = roleNode.querySelector(`gender[type="${gender}"]`);
-        if (!genderNode) {
-            console.error(`Gender "${gender}" not found for role "${role}"`);
-            return;
-        }
-
-        const ageNode = genderNode.querySelector(`age[value="${age}"]`);
-        if (!ageNode) {
-            console.error(`Age "${age}" not found for role "${role}" and gender "${gender}"`);
-            return;
-        }
-
-        const coverOptionNode = ageNode.querySelector(`cover_option[type="${selectedCover}"]`);
-        if (!coverOptionNode) {
-            console.error(`Cover option "${selectedCover}" not found for age "${age}"`);
-            return;
-        }
-
-        if (selectedCover === 'protectors') {
-            const protectorNode = coverOptionNode.querySelector(`protectors[type="${selectedProtector}"]`);
-            if (protectorNode) {
-                const coverNode = protectorNode.querySelector('cover');
-                if (coverNode) {
-                    premium = parseFloat(coverNode.textContent);
-                } else {
-                    console.error(`Cover not found for protector "${selectedProtector}"`);
-                }
-            } else {
-                console.error(`Protector "${selectedProtector}" not found for age "${age}"`);
+        if (!isError) {
+            const roleNode = pricingTable.querySelector(`role[name="${role}"]`);
+            if (!roleNode) {
+                console.error(`Role "${role}" not found in pricing table`);
+                isError = true;
             }
-        } else {
-            const coverAmount = document.getElementById('cover-amount').value;
-            console.log(`Searching for cover amount: ${coverAmount} in ${selectedCover} cover`);
-            const coverNode = coverOptionNode.querySelector(`cover[type="${coverAmount}"]`);
-            if (coverNode) {
-                premium = parseFloat(coverNode.textContent);
-            } else {
-                console.error(`Cover amount "${coverAmount}" not found for ${selectedCover} cover`);
-                // Fallback: use the first available cover amount
-                const firstCoverNode = coverOptionNode.querySelector('cover');
-                if (firstCoverNode) {
-                    premium = parseFloat(firstCoverNode.textContent);
-                    console.log(`Fallback to first available cover amount: ${firstCoverNode.getAttribute('type')}`);
+
+            if (!isError) {
+                const genderNode = roleNode.querySelector(`gender[type="${gender}"]`);
+                if (!genderNode) {
+                    console.error(`Gender "${gender}" not found for role "${role}"`);
+                    isError = true;
+                }
+
+                if (!isError) {
+                    const ageNode = genderNode.querySelector(`age[value="${age}"]`);
+                    if (!ageNode) {
+                        console.error(`Age "${age}" not found for role "${role}" and gender "${gender}"`);
+                        isError = true;
+                    }
+
+                    if (!isError) {
+                        const coverOptionNode = ageNode.querySelector(`cover_option[type="${selectedCover}"]`);
+                        if (!coverOptionNode) {
+                            console.error(`Cover option "${selectedCover}" not found for age "${age}"`);
+                            isError = true;
+                        }
+
+                        if (!isError) {
+                            if (selectedCover === 'protectors') {
+                                const protectorNode = coverOptionNode.querySelector(`protectors[type="${selectedProtector}"]`);
+                                if (protectorNode) {
+                                    const coverNode = protectorNode.querySelector('cover');
+                                    if (coverNode) {
+                                        premium = parseFloat(coverNode.textContent);
+                                    } else {
+                                        console.error(`Cover not found for protector "${selectedProtector}"`);
+                                        isError = true;
+                                    }
+                                } else {
+                                    console.error(`Protector "${selectedProtector}" not found for age "${age}"`);
+                                    isError = true;
+                                }
+                            } else {
+                                const coverAmount = document.getElementById('cover-amount').value;
+                                console.log(`Searching for cover amount: ${coverAmount} in ${selectedCover} cover`);
+                                const coverNode = coverOptionNode.querySelector(`cover[type="${coverAmount}"]`);
+                                if (coverNode) {
+                                    premium = parseFloat(coverNode.textContent);
+                                } else {
+                                    console.error(`Cover amount "${coverAmount}" not found for ${selectedCover} cover`);
+                                    // Fallback: use the first available cover amount
+                                    const firstCoverNode = coverOptionNode.querySelector('cover');
+                                    if (firstCoverNode) {
+                                        premium = parseFloat(firstCoverNode.textContent);
+                                        console.log(`Fallback to first available cover amount: ${firstCoverNode.getAttribute('type')}`);
+                                    } else {
+                                        isError = true;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
 
         console.log(`Calculated premium: R${premium.toFixed(2)}`);
 
-        // Update the total amount and show the icon with transition
+        // Update the total amount and show the appropriate icon with transition
         const totalElement = document.getElementById('total');
-        const iconElement = document.getElementById('total-icon');
+        const checkmarkIcon = document.getElementById('total-icon');
+        const errorIcon = document.getElementById('error-icon');
 
-        totalElement.textContent = `R${premium.toFixed(2)} pm`;
+        totalElement.textContent = isError ? 'Error' : `R${premium.toFixed(2)} pm`;
 
         // Clear any existing timeouts
         if (window.updatePremiumTimeout) {
             clearTimeout(window.updatePremiumTimeout);
         }
 
-        // Reset scale for icon and opacity for total
-        iconElement.style.transition = 'none';
+        // Reset scale for icons and opacity for total
+        checkmarkIcon.style.transition = 'none';
+        errorIcon.style.transition = 'none';
         totalElement.style.transition = 'none';
-        iconElement.style.transform = 'scale(0)';
+        checkmarkIcon.style.transform = 'scale(0)';
+        errorIcon.style.transform = 'scale(0)';
         totalElement.style.opacity = '0';
 
-                // Force a reflow to ensure the transition runs again
+        // Force a reflow to ensure the transition runs again
         void totalElement.offsetWidth;
-        void iconElement.offsetWidth;
+        void checkmarkIcon.offsetWidth;
+        void errorIcon.offsetWidth;
 
         // Re-enable transitions
-        iconElement.style.transition = '';
+        checkmarkIcon.style.transition = '';
+        errorIcon.style.transition = '';
         totalElement.style.transition = '';
 
         // Set the final styles to trigger the transition after a small delay
         window.updatePremiumTimeout = setTimeout(() => {
-            iconElement.style.transform = 'scale(1)';
+            if (isError) {
+                errorIcon.style.display = 'block';
+                checkmarkIcon.style.display = 'none';
+                errorIcon.style.transform = 'scale(1)';
+                totalElement.classList.add('error');
+            } else {
+                checkmarkIcon.style.display = 'block';
+                errorIcon.style.display = 'none';
+                checkmarkIcon.style.transform = 'scale(1)';
+                totalElement.classList.remove('error');
+            }
             totalElement.style.opacity = '1';
         }, 50);
     }
