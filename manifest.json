@@ -1,6 +1,6 @@
 {
-  "name": "Pricing Calculator",
-  "short_name": "PriceCalc",
+  "name": "SparkCover",
+  "short_name": "SparkCover",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#393939",
