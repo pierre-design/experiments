@@ -274,5 +274,5 @@ body {
     transition: opacity 0.3s ease-in-out;
 }
 .total.error {
-    color: #EB5757;
+    color: #787878;
 }
