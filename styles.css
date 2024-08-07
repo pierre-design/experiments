@@ -90,7 +90,7 @@ body {
 }
 .calculator .input-group #age.error {
     color: #EB5757;
-    border-bottom: 2px solid #EB5757;
+    border-bottom: 1px solid #EB5757;
 }
 .calculator .error-label {
     color: #ffffff;
@@ -98,9 +98,7 @@ body {
     font-weight: 700;
     text-align: center;
     width: 40%;
-    background-color: #393939;
     padding: 16px;
-    border-radius: 8px;
     margin: 0;
 }
 .calculator .input-group select {
