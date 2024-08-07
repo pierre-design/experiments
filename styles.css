@@ -24,7 +24,7 @@ body {
 }
 .calculator {
     position: relative;  /* Add this to make it a positioning context */
-    padding: 24px;
+    padding: 8px 24px;
     border-radius: 12px;
     width: 320px;
     max-width: 100%;
