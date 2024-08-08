@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <pricingTable>
   <role name="main">
     <gender type="male">
@@ -8562,7 +8562,7 @@
       </age>
     </gender>
   </role>
-  <role name="main_ADDITIONAL">
+  <role name="main">
     <gender type="male">
       <age value="18">
         <cover_option type="protectors">
