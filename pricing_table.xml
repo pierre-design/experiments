@@ -5455,9 +5455,29 @@
         <cover type="60000">73.00</cover>
         <cover type="70000">85.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">9.50</cover>
+        <cover type="10000">12.10</cover>
+        <cover type="20000">25.00</cover>
+        <cover type="30000">37.00</cover>
+        <cover type="40000">49.00</cover>
+        <cover type="50000">61.00</cover>
+        <cover type="60000">73.00</cover>
+        <cover type="70000">85.00</cover>
+      </cover_option>
     </age>
     <age value="19">
       <cover_option type="essential">
+        <cover type="5000">9.50</cover>
+        <cover type="10000">13.40</cover>
+        <cover type="20000">27.00</cover>
+        <cover type="30000">41.00</cover>
+        <cover type="40000">54.00</cover>
+        <cover type="50000">67.00</cover>
+        <cover type="60000">80.00</cover>
+        <cover type="70000">93.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">9.50</cover>
         <cover type="10000">13.40</cover>
         <cover type="20000">27.00</cover>
@@ -5479,9 +5499,29 @@
         <cover type="60000">87.00</cover>
         <cover type="70000">101.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">14.50</cover>
+        <cover type="20000">29.00</cover>
+        <cover type="30000">44.00</cover>
+        <cover type="40000">58.00</cover>
+        <cover type="50000">73.00</cover>
+        <cover type="60000">87.00</cover>
+        <cover type="70000">101.00</cover>
+      </cover_option>
     </age>
     <age value="21">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">14.60</cover>
+        <cover type="20000">30.00</cover>
+        <cover type="30000">44.00</cover>
+        <cover type="40000">59.00</cover>
+        <cover type="50000">73.00</cover>
+        <cover type="60000">87.00</cover>
+        <cover type="70000">102.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">14.60</cover>
         <cover type="20000">30.00</cover>
@@ -5503,9 +5543,29 @@
         <cover type="60000">87.00</cover>
         <cover type="70000">102.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">14.60</cover>
+        <cover type="20000">30.00</cover>
+        <cover type="30000">44.00</cover>
+        <cover type="40000">59.00</cover>
+        <cover type="50000">73.00</cover>
+        <cover type="60000">87.00</cover>
+        <cover type="70000">102.00</cover>
+      </cover_option>
     </age>
     <age value="23">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">14.10</cover>
+        <cover type="20000">29.00</cover>
+        <cover type="30000">43.00</cover>
+        <cover type="40000">57.00</cover>
+        <cover type="50000">71.00</cover>
+        <cover type="60000">84.00</cover>
+        <cover type="70000">98.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">14.10</cover>
         <cover type="20000">29.00</cover>
@@ -5527,9 +5587,29 @@
         <cover type="60000">80.00</cover>
         <cover type="70000">93.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">13.40</cover>
+        <cover type="20000">27.00</cover>
+        <cover type="30000">41.00</cover>
+        <cover type="40000">54.00</cover>
+        <cover type="50000">67.00</cover>
+        <cover type="60000">80.00</cover>
+        <cover type="70000">93.00</cover>
+      </cover_option>
     </age>
     <age value="25">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">13.40</cover>
+        <cover type="20000">27.00</cover>
+        <cover type="30000">41.00</cover>
+        <cover type="40000">54.00</cover>
+        <cover type="50000">67.00</cover>
+        <cover type="60000">80.00</cover>
+        <cover type="70000">94.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">13.40</cover>
         <cover type="20000">27.00</cover>
@@ -5551,9 +5631,29 @@
         <cover type="60000">80.00</cover>
         <cover type="70000">94.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">13.40</cover>
+        <cover type="20000">27.00</cover>
+        <cover type="30000">41.00</cover>
+        <cover type="40000">54.00</cover>
+        <cover type="50000">67.00</cover>
+        <cover type="60000">80.00</cover>
+        <cover type="70000">94.00</cover>
+      </cover_option>
     </age>
     <age value="27">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">13.40</cover>
+        <cover type="20000">27.00</cover>
+        <cover type="30000">41.00</cover>
+        <cover type="40000">54.00</cover>
+        <cover type="50000">67.00</cover>
+        <cover type="60000">80.00</cover>
+        <cover type="70000">94.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">13.40</cover>
         <cover type="20000">27.00</cover>
@@ -5575,9 +5675,29 @@
         <cover type="60000">80.00</cover>
         <cover type="70000">94.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">13.40</cover>
+        <cover type="20000">27.00</cover>
+        <cover type="30000">41.00</cover>
+        <cover type="40000">54.00</cover>
+        <cover type="50000">67.00</cover>
+        <cover type="60000">80.00</cover>
+        <cover type="70000">94.00</cover>
+      </cover_option>
     </age>
     <age value="29">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">13.40</cover>
+        <cover type="20000">27.00</cover>
+        <cover type="30000">41.00</cover>
+        <cover type="40000">54.00</cover>
+        <cover type="50000">67.00</cover>
+        <cover type="60000">80.00</cover>
+        <cover type="70000">94.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">13.40</cover>
         <cover type="20000">27.00</cover>
@@ -5599,9 +5719,29 @@
         <cover type="60000">82.00</cover>
         <cover type="70000">96.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">13.70</cover>
+        <cover type="20000">28.00</cover>
+        <cover type="30000">42.00</cover>
+        <cover type="40000">55.00</cover>
+        <cover type="50000">69.00</cover>
+        <cover type="60000">82.00</cover>
+        <cover type="70000">96.00</cover>
+      </cover_option>
     </age>
     <age value="31">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">14.20</cover>
+        <cover type="20000">29.00</cover>
+        <cover type="30000">43.00</cover>
+        <cover type="40000">57.00</cover>
+        <cover type="50000">72.00</cover>
+        <cover type="60000">85.00</cover>
+        <cover type="70000">100.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">14.20</cover>
         <cover type="20000">29.00</cover>
@@ -5626,9 +5766,29 @@
         <cover type="60000">39.00</cover>
         <cover type="70000">45.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">8.50</cover>
+        <cover type="10000">9.00</cover>
+        <cover type="20000">13.00</cover>
+        <cover type="30000">20.00</cover>
+        <cover type="40000">26.00</cover>
+        <cover type="50000">33.00</cover>
+        <cover type="60000">39.00</cover>
+        <cover type="70000">45.00</cover>
+      </cover_option>
     </age>
     <age value="19">
       <cover_option type="essential">
+        <cover type="5000">8.50</cover>
+        <cover type="10000">9.50</cover>
+        <cover type="20000">16.00</cover>
+        <cover type="30000">23.00</cover>
+        <cover type="40000">31.00</cover>
+        <cover type="50000">39.00</cover>
+        <cover type="60000">46.00</cover>
+        <cover type="70000">54.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">8.50</cover>
         <cover type="10000">9.50</cover>
         <cover type="20000">16.00</cover>
@@ -5650,9 +5810,29 @@
         <cover type="60000">54.00</cover>
         <cover type="70000">63.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">9.00</cover>
+        <cover type="10000">10.00</cover>
+        <cover type="20000">18.00</cover>
+        <cover type="30000">27.00</cover>
+        <cover type="40000">36.00</cover>
+        <cover type="50000">45.00</cover>
+        <cover type="60000">54.00</cover>
+        <cover type="70000">63.00</cover>
+      </cover_option>
     </age>
     <age value="21">
       <cover_option type="essential">
+        <cover type="5000">9.50</cover>
+        <cover type="10000">10.30</cover>
+        <cover type="20000">21.00</cover>
+        <cover type="30000">31.00</cover>
+        <cover type="40000">42.00</cover>
+        <cover type="50000">52.00</cover>
+        <cover type="60000">62.00</cover>
+        <cover type="70000">72.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">9.50</cover>
         <cover type="10000">10.30</cover>
         <cover type="20000">21.00</cover>
@@ -5674,9 +5854,29 @@
         <cover type="60000">69.00</cover>
         <cover type="70000">81.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">9.50</cover>
+        <cover type="10000">11.50</cover>
+        <cover type="20000">24.00</cover>
+        <cover type="30000">35.00</cover>
+        <cover type="40000">47.00</cover>
+        <cover type="50000">58.00</cover>
+        <cover type="60000">69.00</cover>
+        <cover type="70000">81.00</cover>
+      </cover_option>
     </age>
     <age value="23">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.40</cover>
+        <cover type="20000">25.00</cover>
+        <cover type="30000">38.00</cover>
+        <cover type="40000">50.00</cover>
+        <cover type="50000">62.00</cover>
+        <cover type="60000">74.00</cover>
+        <cover type="70000">87.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">12.40</cover>
         <cover type="20000">25.00</cover>
@@ -5698,9 +5898,29 @@
         <cover type="60000">76.00</cover>
         <cover type="70000">89.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.70</cover>
+        <cover type="20000">26.00</cover>
+        <cover type="30000">38.00</cover>
+        <cover type="40000">51.00</cover>
+        <cover type="50000">64.00</cover>
+        <cover type="60000">76.00</cover>
+        <cover type="70000">89.00</cover>
+      </cover_option>
     </age>
     <age value="25">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.80</cover>
+        <cover type="20000">26.00</cover>
+        <cover type="30000">39.00</cover>
+        <cover type="40000">51.00</cover>
+        <cover type="50000">64.00</cover>
+        <cover type="60000">76.00</cover>
+        <cover type="70000">89.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">12.80</cover>
         <cover type="20000">26.00</cover>
@@ -5722,9 +5942,29 @@
         <cover type="60000">77.00</cover>
         <cover type="70000">89.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.80</cover>
+        <cover type="20000">26.00</cover>
+        <cover type="30000">39.00</cover>
+        <cover type="40000">52.00</cover>
+        <cover type="50000">64.00</cover>
+        <cover type="60000">77.00</cover>
+        <cover type="70000">89.00</cover>
+      </cover_option>
     </age>
     <age value="27">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.80</cover>
+        <cover type="20000">26.00</cover>
+        <cover type="30000">39.00</cover>
+        <cover type="40000">52.00</cover>
+        <cover type="50000">64.00</cover>
+        <cover type="60000">77.00</cover>
+        <cover type="70000">89.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">12.80</cover>
         <cover type="20000">26.00</cover>
@@ -5746,9 +5986,29 @@
         <cover type="60000">77.00</cover>
         <cover type="70000">89.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.80</cover>
+        <cover type="20000">26.00</cover>
+        <cover type="30000">39.00</cover>
+        <cover type="40000">52.00</cover>
+        <cover type="50000">64.00</cover>
+        <cover type="60000">77.00</cover>
+        <cover type="70000">89.00</cover>
+      </cover_option>
     </age>
     <age value="29">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.80</cover>
+        <cover type="20000">26.00</cover>
+        <cover type="30000">39.00</cover>
+        <cover type="40000">52.00</cover>
+        <cover type="50000">64.00</cover>
+        <cover type="60000">77.00</cover>
+        <cover type="70000">89.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">12.80</cover>
         <cover type="20000">26.00</cover>
@@ -5770,9 +6030,29 @@
         <cover type="60000">77.00</cover>
         <cover type="70000">89.00</cover>
       </cover_option>
+      <cover_option type="diamond">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.80</cover>
+        <cover type="20000">26.00</cover>
+        <cover type="30000">39.00</cover>
+        <cover type="40000">52.00</cover>
+        <cover type="50000">64.00</cover>
+        <cover type="60000">77.00</cover>
+        <cover type="70000">89.00</cover>
+      </cover_option>
     </age>
     <age value="31">
       <cover_option type="essential">
+        <cover type="5000">10.00</cover>
+        <cover type="10000">12.80</cover>
+        <cover type="20000">26.00</cover>
+        <cover type="30000">39.00</cover>
+        <cover type="40000">52.00</cover>
+        <cover type="50000">64.00</cover>
+        <cover type="60000">77.00</cover>
+        <cover type="70000">89.00</cover>
+      </cover_option>
+      <cover_option type="diamond">
         <cover type="5000">10.00</cover>
         <cover type="10000">12.80</cover>
         <cover type="20000">26.00</cover>
