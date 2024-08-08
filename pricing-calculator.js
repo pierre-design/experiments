@@ -3,7 +3,7 @@ const ageLimits = {
     spouse: { min: 18, max: 65 },
     child: { min: 0, max: 19 },
     parent: { min: 35, max: 75 },
-    extended: { min: 1, max: 75 }
+    extended: { min: 1, max: 65 }
 };
 
 let pricingTable;
