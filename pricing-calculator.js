@@ -43,11 +43,16 @@ function updateCoverOptions() {
     const coverAmountSelect = document.getElementById('cover-amount');
     coverAmountSelect.innerHTML = '';
 
-    const coverAmounts = selectedCover === 'essential' ? [
-        70000, 60000, 50000, 40000, 30000, 20000, 10000, 5000
-    ] : [
-        50000, 40000, 30000, 20000, 10000, 5000
-    ];
+    const role = document.getElementById('role').value;
+    let coverAmounts;
+
+    if (['child', 'parent', 'extended'].includes(role)) {
+        coverAmounts = [30000, 25000, 20000, 15000, 10000, 5000];
+    } else {
+        coverAmounts = selectedCover === 'essential' ?
+            [70000, 60000, 50000, 40000, 30000, 20000, 10000, 5000] :
+            [50000, 40000, 30000, 20000, 10000, 5000];
+    }
 
     coverAmounts.forEach(amount => {
         const option = document.createElement('option');
@@ -141,6 +146,8 @@ function toggleCoverOptions() {
         document.getElementById('diamond').style.width = 'calc(33.33% - 4px)';
         document.getElementById('protectors').style.width = 'calc(33.33% - 4px)';
     }
+
+    updateCoverOptions(); // Call updateCoverOptions after changing the role
 }
 
 function updatePremium() {
