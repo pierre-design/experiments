@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <pricingTable>
   <role name="main">
     <gender type="male">
@@ -21,6 +21,20 @@
           <cover type="40000">139.00</cover>
           <cover type="50000">163.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">128.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">82.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">74.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">133.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="19">
         <cover_option type="essential">
@@ -40,6 +54,20 @@
           <cover type="30000">123.00</cover>
           <cover type="40000">149.00</cover>
           <cover type="50000">177.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">133.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">88.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">79.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">140.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="20">
@@ -61,6 +89,20 @@
           <cover type="40000">159.00</cover>
           <cover type="50000">190.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">140.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">95.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">86.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">141.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="21">
         <cover_option type="essential">
@@ -80,6 +122,20 @@
           <cover type="30000">137.00</cover>
           <cover type="40000">166.00</cover>
           <cover type="50000">201.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">145.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">101.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">91.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">145.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="22">
@@ -101,6 +157,20 @@
           <cover type="40000">169.00</cover>
           <cover type="50000">204.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">144.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">100.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">143.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="23">
         <cover_option type="essential">
@@ -120,6 +190,20 @@
           <cover type="30000">138.00</cover>
           <cover type="40000">167.00</cover>
           <cover type="50000">202.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">142.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">89.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">140.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="24">
@@ -141,6 +225,20 @@
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">141.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">97.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">88.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">139.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="25">
         <cover_option type="essential">
@@ -160,6 +258,20 @@
           <cover type="30000">136.00</cover>
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">139.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">96.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">86.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">139.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="26">
@@ -181,6 +293,20 @@
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">138.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">95.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">85.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">135.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="27">
         <cover_option type="essential">
@@ -200,6 +326,20 @@
           <cover type="30000">136.00</cover>
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">136.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">94.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">85.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">135.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="28">
@@ -221,6 +361,20 @@
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">134.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">93.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">84.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">131.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="29">
         <cover_option type="essential">
@@ -240,6 +394,20 @@
           <cover type="30000">136.00</cover>
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">132.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">93.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">84.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">132.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="30">
@@ -261,6 +429,20 @@
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">130.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">93.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">83.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">132.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="31">
         <cover_option type="essential">
@@ -280,6 +462,20 @@
           <cover type="30000">136.00</cover>
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">128.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">92.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">83.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">132.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="32">
@@ -301,6 +497,20 @@
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">126.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">91.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">83.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">133.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="33">
         <cover_option type="essential">
@@ -320,6 +530,20 @@
           <cover type="30000">136.00</cover>
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">123.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">83.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">133.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="34">
@@ -341,6 +565,20 @@
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">120.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">88.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">83.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">133.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="35">
         <cover_option type="essential">
@@ -360,6 +598,20 @@
           <cover type="30000">136.00</cover>
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">118.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">87.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">83.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">134.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="36">
@@ -381,6 +633,20 @@
           <cover type="40000">165.00</cover>
           <cover type="50000">199.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">122.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">91.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">83.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">142.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="37">
         <cover_option type="essential">
@@ -400,6 +666,20 @@
           <cover type="30000">138.00</cover>
           <cover type="40000">170.00</cover>
           <cover type="50000">206.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">126.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">95.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">87.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">151.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="38">
@@ -421,6 +701,20 @@
           <cover type="40000">175.00</cover>
           <cover type="50000">213.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">130.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">98.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">91.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">160.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="39">
         <cover_option type="essential">
@@ -440,6 +734,20 @@
           <cover type="30000">144.00</cover>
           <cover type="40000">176.00</cover>
           <cover type="50000">213.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">138.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">105.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">97.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">174.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="40">
@@ -461,6 +769,20 @@
           <cover type="40000">181.00</cover>
           <cover type="50000">215.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">139.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">107.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">180.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="41">
         <cover_option type="essential">
@@ -480,6 +802,20 @@
           <cover type="30000">156.00</cover>
           <cover type="40000">191.00</cover>
           <cover type="50000">227.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">142.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">109.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">102.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">188.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="42">
@@ -501,6 +837,20 @@
           <cover type="40000">202.00</cover>
           <cover type="50000">241.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">144.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">112.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">105.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">197.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="43">
         <cover_option type="essential">
@@ -520,6 +870,20 @@
           <cover type="30000">173.00</cover>
           <cover type="40000">214.00</cover>
           <cover type="50000">257.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">147.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">115.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">108.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">206.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="44">
@@ -541,6 +905,20 @@
           <cover type="40000">227.00</cover>
           <cover type="50000">274.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">150.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">118.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">111.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">216.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="45">
         <cover_option type="essential">
@@ -560,6 +938,20 @@
           <cover type="30000">194.00</cover>
           <cover type="40000">242.00</cover>
           <cover type="50000">293.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">153.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">120.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">114.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">226.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="46">
@@ -581,6 +973,20 @@
           <cover type="40000">258.00</cover>
           <cover type="50000">315.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">161.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">127.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">121.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">244.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="47">
         <cover_option type="essential">
@@ -600,6 +1006,20 @@
           <cover type="30000">218.00</cover>
           <cover type="40000">275.00</cover>
           <cover type="50000">338.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">169.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">133.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">127.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">263.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="48">
@@ -621,6 +1041,20 @@
           <cover type="40000">294.00</cover>
           <cover type="50000">362.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">176.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">139.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">134.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">281.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="49">
         <cover_option type="essential">
@@ -640,6 +1074,20 @@
           <cover type="30000">253.00</cover>
           <cover type="40000">326.00</cover>
           <cover type="50000">401.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">189.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">150.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">145.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">315.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="50">
@@ -661,6 +1109,20 @@
           <cover type="40000">360.00</cover>
           <cover type="50000">443.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">202.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">160.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">155.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">345.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="51">
         <cover_option type="essential">
@@ -680,6 +1142,20 @@
           <cover type="30000">302.00</cover>
           <cover type="40000">392.00</cover>
           <cover type="50000">481.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">210.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">167.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">162.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">367.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="52">
@@ -701,6 +1177,20 @@
           <cover type="40000">427.00</cover>
           <cover type="50000">524.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">219.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">175.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">170.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">390.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="53">
         <cover_option type="essential">
@@ -720,6 +1210,20 @@
           <cover type="30000">351.00</cover>
           <cover type="40000">456.00</cover>
           <cover type="50000">560.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">225.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">180.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">175.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">407.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="54">
@@ -741,6 +1245,20 @@
           <cover type="40000">468.00</cover>
           <cover type="50000">576.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">225.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">180.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">177.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">414.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="55">
         <cover_option type="essential">
@@ -760,6 +1278,20 @@
           <cover type="30000">393.00</cover>
           <cover type="40000">511.00</cover>
           <cover type="50000">629.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">235.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">189.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">185.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">439.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="56">
@@ -781,6 +1313,20 @@
           <cover type="40000">550.00</cover>
           <cover type="50000">677.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">250.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">201.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">197.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">473.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="57">
         <cover_option type="essential">
@@ -800,6 +1346,20 @@
           <cover type="30000">448.00</cover>
           <cover type="40000">583.00</cover>
           <cover type="50000">718.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">263.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">211.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">208.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">502.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="58">
@@ -821,6 +1381,20 @@
           <cover type="40000">619.00</cover>
           <cover type="50000">763.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">275.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">221.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">218.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">531.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="59">
         <cover_option type="essential">
@@ -840,6 +1414,20 @@
           <cover type="30000">540.00</cover>
           <cover type="40000">703.00</cover>
           <cover type="50000">866.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">305.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">243.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">241.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">593.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="60">
@@ -861,6 +1449,20 @@
           <cover type="40000">727.00</cover>
           <cover type="50000">896.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">312.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">249.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">247.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">609.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="61">
         <cover_option type="essential">
@@ -880,6 +1482,20 @@
           <cover type="30000">561.00</cover>
           <cover type="40000">731.00</cover>
           <cover type="50000">900.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">311.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">249.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">247.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">611.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="62">
@@ -901,6 +1517,20 @@
           <cover type="40000">760.00</cover>
           <cover type="50000">937.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">319.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">255.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">253.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">627.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="63">
         <cover_option type="essential">
@@ -920,6 +1550,20 @@
           <cover type="30000">606.00</cover>
           <cover type="40000">790.00</cover>
           <cover type="50000">974.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">326.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">260.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">259.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">643.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="64">
@@ -941,6 +1585,20 @@
           <cover type="40000">820.00</cover>
           <cover type="50000">1012.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">334.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">266.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">265.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">660.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="65">
         <cover_option type="essential">
@@ -960,6 +1618,20 @@
           <cover type="30000">652.00</cover>
           <cover type="40000">850.00</cover>
           <cover type="50000">1048.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">342.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">273.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">272.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">678.00</cover>
+          </protectors>
         </cover_option>
       </age>
     </gender>
@@ -983,6 +1655,20 @@
           <cover type="40000">124.00</cover>
           <cover type="50000">145.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">99.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">59.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">59.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">95.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="19">
         <cover_option type="essential">
@@ -1002,6 +1688,20 @@
           <cover type="30000">109.00</cover>
           <cover type="40000">131.00</cover>
           <cover type="50000">153.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">115.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">68.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">66.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">105.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="20">
@@ -1023,6 +1723,20 @@
           <cover type="40000">137.00</cover>
           <cover type="50000">161.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">128.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">77.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">69.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">115.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="21">
         <cover_option type="essential">
@@ -1042,6 +1756,20 @@
           <cover type="30000">120.00</cover>
           <cover type="40000">144.00</cover>
           <cover type="50000">170.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">141.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">83.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">75.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">125.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="22">
@@ -1063,6 +1791,20 @@
           <cover type="40000">152.00</cover>
           <cover type="50000">181.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">149.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">91.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">81.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">135.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="23">
         <cover_option type="essential">
@@ -1082,6 +1824,20 @@
           <cover type="30000">132.00</cover>
           <cover type="40000">159.00</cover>
           <cover type="50000">189.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">155.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">97.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">88.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">145.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="24">
@@ -1103,6 +1859,20 @@
           <cover type="40000">160.00</cover>
           <cover type="50000">192.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">155.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">98.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">88.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">145.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="25">
         <cover_option type="essential">
@@ -1122,6 +1892,20 @@
           <cover type="30000">133.00</cover>
           <cover type="40000">161.00</cover>
           <cover type="50000">193.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">154.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">89.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">145.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="26">
@@ -1143,6 +1927,20 @@
           <cover type="40000">162.00</cover>
           <cover type="50000">194.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">154.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">89.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">145.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="27">
         <cover_option type="essential">
@@ -1162,6 +1960,20 @@
           <cover type="30000">135.00</cover>
           <cover type="40000">164.00</cover>
           <cover type="50000">197.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">153.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">100.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">145.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="28">
@@ -1183,6 +1995,20 @@
           <cover type="40000">165.00</cover>
           <cover type="50000">199.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">152.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">100.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">145.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="29">
         <cover_option type="essential">
@@ -1202,6 +2028,20 @@
           <cover type="30000">137.00</cover>
           <cover type="40000">167.00</cover>
           <cover type="50000">202.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">152.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">100.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">143.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="30">
@@ -1223,6 +2063,20 @@
           <cover type="40000">168.00</cover>
           <cover type="50000">204.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">150.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">100.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">143.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="31">
         <cover_option type="essential">
@@ -1242,6 +2096,20 @@
           <cover type="30000">139.00</cover>
           <cover type="40000">170.00</cover>
           <cover type="50000">206.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">149.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">100.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">143.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="32">
@@ -1263,6 +2131,20 @@
           <cover type="40000">172.00</cover>
           <cover type="50000">209.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">148.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">143.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="33">
         <cover_option type="essential">
@@ -1282,6 +2164,20 @@
           <cover type="30000">142.00</cover>
           <cover type="40000">174.00</cover>
           <cover type="50000">213.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">146.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">144.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="34">
@@ -1303,6 +2199,20 @@
           <cover type="40000">178.00</cover>
           <cover type="50000">217.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">144.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">90.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">144.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="35">
         <cover_option type="essential">
@@ -1322,6 +2232,20 @@
           <cover type="30000">146.00</cover>
           <cover type="40000">181.00</cover>
           <cover type="50000">222.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">142.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">89.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">145.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="36">
@@ -1343,6 +2267,20 @@
           <cover type="40000">185.00</cover>
           <cover type="50000">227.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">140.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">89.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">146.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="37">
         <cover_option type="essential">
@@ -1362,6 +2300,20 @@
           <cover type="30000">151.00</cover>
           <cover type="40000">189.00</cover>
           <cover type="50000">232.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">138.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">89.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">146.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="38">
@@ -1383,6 +2335,20 @@
           <cover type="40000">193.00</cover>
           <cover type="50000">238.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">136.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">89.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">147.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="39">
         <cover_option type="essential">
@@ -1402,6 +2368,20 @@
           <cover type="30000">158.00</cover>
           <cover type="40000">201.00</cover>
           <cover type="50000">248.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">134.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">89.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">149.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="40">
@@ -1423,6 +2403,20 @@
           <cover type="40000">201.00</cover>
           <cover type="50000">248.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">135.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">100.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">91.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">157.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="41">
         <cover_option type="essential">
@@ -1442,6 +2436,20 @@
           <cover type="30000">160.00</cover>
           <cover type="40000">201.00</cover>
           <cover type="50000">248.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">135.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">102.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">93.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">162.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="42">
@@ -1463,6 +2471,20 @@
           <cover type="40000">205.00</cover>
           <cover type="50000">248.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">137.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">103.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">95.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">167.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="43">
         <cover_option type="essential">
@@ -1482,6 +2504,20 @@
           <cover type="30000">174.00</cover>
           <cover type="40000">217.00</cover>
           <cover type="50000">261.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">139.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">105.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">97.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">174.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="44">
@@ -1503,6 +2539,20 @@
           <cover type="40000">230.00</cover>
           <cover type="50000">279.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">141.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">107.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">99.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">180.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="45">
         <cover_option type="essential">
@@ -1522,6 +2572,20 @@
           <cover type="30000">195.00</cover>
           <cover type="40000">246.00</cover>
           <cover type="50000">300.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">143.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">109.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">101.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">187.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="46">
@@ -1543,6 +2607,20 @@
           <cover type="40000">265.00</cover>
           <cover type="50000">326.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">149.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">114.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">106.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">200.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="47">
         <cover_option type="essential">
@@ -1562,6 +2640,20 @@
           <cover type="30000">227.00</cover>
           <cover type="40000">290.00</cover>
           <cover type="50000">359.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">155.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">119.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">112.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">213.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="48">
@@ -1583,6 +2675,20 @@
           <cover type="40000">317.00</cover>
           <cover type="50000">392.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">161.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">125.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">117.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">228.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="49">
         <cover_option type="essential">
@@ -1602,6 +2708,20 @@
           <cover type="30000">277.00</cover>
           <cover type="40000">361.00</cover>
           <cover type="50000">447.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">174.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">135.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">128.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">254.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="50">
@@ -1623,6 +2743,20 @@
           <cover type="40000">385.00</cover>
           <cover type="50000">476.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">176.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">137.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">130.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">263.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="51">
         <cover_option type="essential">
@@ -1642,6 +2776,20 @@
           <cover type="30000">306.00</cover>
           <cover type="40000">402.00</cover>
           <cover type="50000">497.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">176.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">138.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">131.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">268.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="52">
@@ -1663,6 +2811,20 @@
           <cover type="40000">420.00</cover>
           <cover type="50000">520.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">176.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">139.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">133.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">274.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="53">
         <cover_option type="essential">
@@ -1682,6 +2844,20 @@
           <cover type="30000">329.00</cover>
           <cover type="40000">431.00</cover>
           <cover type="50000">533.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">175.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">138.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">133.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">277.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="54">
@@ -1703,6 +2879,20 @@
           <cover type="40000">431.00</cover>
           <cover type="50000">533.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">172.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">137.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">132.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">277.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="55">
         <cover_option type="essential">
@@ -1722,6 +2912,20 @@
           <cover type="30000">336.00</cover>
           <cover type="40000">441.00</cover>
           <cover type="50000">545.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">172.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">137.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">132.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">281.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="56">
@@ -1743,6 +2947,20 @@
           <cover type="40000">450.00</cover>
           <cover type="50000">557.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">172.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">137.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">132.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">285.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="57">
         <cover_option type="essential">
@@ -1762,6 +2980,20 @@
           <cover type="30000">343.00</cover>
           <cover type="40000">450.00</cover>
           <cover type="50000">557.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">172.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">137.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">132.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">286.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="58">
@@ -1783,6 +3015,20 @@
           <cover type="40000">450.00</cover>
           <cover type="50000">557.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">172.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">137.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">132.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">289.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="59">
         <cover_option type="essential">
@@ -1802,6 +3048,20 @@
           <cover type="30000">373.00</cover>
           <cover type="40000">489.00</cover>
           <cover type="50000">605.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">177.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">143.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">139.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">311.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="60">
@@ -1823,6 +3083,20 @@
           <cover type="40000">507.00</cover>
           <cover type="50000">627.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">180.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">145.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">142.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">321.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="61">
         <cover_option type="essential">
@@ -1842,6 +3116,20 @@
           <cover type="30000">400.00</cover>
           <cover type="40000">524.00</cover>
           <cover type="50000">649.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">183.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">148.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">145.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">331.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="62">
@@ -1863,6 +3151,20 @@
           <cover type="40000">560.00</cover>
           <cover type="50000">693.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">189.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">152.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">150.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">346.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="63">
         <cover_option type="essential">
@@ -1882,6 +3184,20 @@
           <cover type="30000">457.00</cover>
           <cover type="40000">599.00</cover>
           <cover type="50000">742.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">197.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">159.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">156.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">365.00</cover>
+          </protectors>
         </cover_option>
       </age>
       <age value="64">
@@ -1903,6 +3219,20 @@
           <cover type="40000">642.00</cover>
           <cover type="50000">794.00</cover>
         </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">206.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">166.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">163.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">386.00</cover>
+          </protectors>
+        </cover_option>
       </age>
       <age value="65">
         <cover_option type="essential">
@@ -1922,6 +3252,20 @@
           <cover type="30000">525.00</cover>
           <cover type="40000">688.00</cover>
           <cover type="50000">851.00</cover>
+        </cover_option>
+        <cover_option type="protectors">
+          <protectors type="education">
+            <cover type="25000">216.00</cover>
+          </protectors>
+          <protectors type="groceries">
+            <cover type="20000">174.00</cover>
+          </protectors>
+          <protectors type="transport">
+            <cover type="20000">172.00</cover>
+          </protectors>
+          <protectors type="everyday">
+            <cover type="50000">409.00</cover>
+          </protectors>
         </cover_option>
       </age>
     </gender>
@@ -8558,1548 +9902,6 @@
           <cover type="50000">302.00</cover>
           <cover type="60000">363.00</cover>
           <cover type="70000">423.00</cover>
-        </cover_option>
-      </age>
-    </gender>
-  </role>
-  <role name="main">
-    <gender type="male">
-      <age value="18">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">128.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">82.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">74.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">133.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="19">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">133.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">88.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">79.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">140.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="20">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">140.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">95.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">86.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">141.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="21">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">145.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">101.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">91.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">145.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="22">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">144.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">100.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">143.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="23">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">142.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">89.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">140.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="24">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">141.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">97.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">88.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">139.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="25">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">139.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">96.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">86.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">139.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="26">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">138.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">95.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">85.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">135.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="27">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">136.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">94.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">85.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">135.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="28">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">134.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">93.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">84.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">131.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="29">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">132.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">93.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">84.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">132.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="30">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">130.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">93.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">83.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">132.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="31">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">128.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">92.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">83.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">132.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="32">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">126.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">91.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">83.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">133.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="33">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">123.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">83.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">133.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="34">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">120.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">88.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">83.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">133.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="35">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">118.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">87.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">83.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">134.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="36">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">122.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">91.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">83.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">142.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="37">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">126.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">95.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">87.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">151.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="38">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">130.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">98.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">91.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">160.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="39">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">138.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">105.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">97.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">174.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="40">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">139.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">107.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">180.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="41">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">142.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">109.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">102.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">188.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="42">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">144.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">112.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">105.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">197.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="43">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">147.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">115.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">108.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">206.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="44">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">150.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">118.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">111.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">216.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="45">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">153.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">120.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">114.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">226.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="46">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">161.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">127.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">121.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">244.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="47">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">169.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">133.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">127.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">263.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="48">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">176.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">139.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">134.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">281.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="49">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">189.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">150.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">145.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">315.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="50">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">202.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">160.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">155.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">345.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="51">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">210.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">167.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">162.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">367.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="52">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">219.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">175.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">170.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">390.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="53">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">225.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">180.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">175.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">407.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="54">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">225.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">180.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">177.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">414.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="55">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">235.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">189.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">185.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">439.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="56">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">250.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">201.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">197.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">473.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="57">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">263.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">211.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">208.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">502.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="58">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">275.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">221.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">218.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">531.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="59">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">305.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">243.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">241.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">593.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="60">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">312.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">249.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">247.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">609.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="61">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">311.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">249.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">247.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">611.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="62">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">319.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">255.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">253.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">627.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="63">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">326.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">260.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">259.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">643.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="64">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">334.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">266.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">265.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">660.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="65">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">342.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">273.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">272.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">678.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-    </gender>
-    <gender type="female">
-      <age value="18">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">99.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">59.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">59.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">95.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="19">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">115.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">68.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">66.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">105.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="20">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">128.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">77.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">69.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">115.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="21">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">141.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">83.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">75.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">125.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="22">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">149.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">91.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">81.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">135.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="23">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">155.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">97.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">88.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">145.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="24">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">155.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">98.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">88.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">145.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="25">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">154.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">89.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">145.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="26">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">154.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">89.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">145.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="27">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">153.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">100.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">145.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="28">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">152.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">100.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">145.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="29">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">152.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">100.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">143.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="30">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">150.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">100.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">143.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="31">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">149.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">100.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">143.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="32">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">148.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">143.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="33">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">146.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">144.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="34">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">144.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">90.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">144.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="35">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">142.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">89.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">145.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="36">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">140.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">89.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">146.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="37">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">138.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">89.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">146.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="38">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">136.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">89.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">147.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="39">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">134.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">89.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">149.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="40">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">135.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">100.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">91.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">157.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="41">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">135.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">102.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">93.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">162.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="42">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">137.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">103.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">95.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">167.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="43">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">139.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">105.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">97.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">174.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="44">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">141.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">107.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">99.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">180.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="45">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">143.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">109.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">101.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">187.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="46">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">149.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">114.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">106.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">200.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="47">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">155.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">119.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">112.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">213.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="48">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">161.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">125.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">117.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">228.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="49">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">174.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">135.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">128.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">254.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="50">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">176.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">137.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">130.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">263.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="51">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">176.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">138.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">131.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">268.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="52">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">176.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">139.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">133.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">274.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="53">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">175.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">138.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">133.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">277.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="54">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">172.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">137.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">132.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">277.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="55">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">172.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">137.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">132.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">281.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="56">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">172.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">137.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">132.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">285.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="57">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">172.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">137.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">132.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">286.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="58">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">172.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">137.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">132.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">289.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="59">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">177.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">143.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">139.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">311.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="60">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">180.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">145.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">142.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">321.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="61">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">183.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">148.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">145.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">331.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="62">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">189.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">152.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">150.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">346.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="63">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">197.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">159.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">156.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">365.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="64">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">206.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">166.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">163.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">386.00</cover>
-          </protectors>
-        </cover_option>
-      </age>
-      <age value="65">
-        <cover_option type="protectors">
-          <protectors type="education">
-            <cover type="25000">216.00</cover>
-          </protectors>
-          <protectors type="groceries">
-            <cover type="20000">174.00</cover>
-          </protectors>
-          <protectors type="transport">
-            <cover type="20000">172.00</cover>
-          </protectors>
-          <protectors type="everyday">
-            <cover type="50000">409.00</cover>
-          </protectors>
         </cover_option>
       </age>
     </gender>
