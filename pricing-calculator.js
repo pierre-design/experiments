@@ -44,12 +44,10 @@ function updateCoverOptions() {
     coverAmountSelect.innerHTML = '';
 
     const role = document.getElementById('role').value;
-    const age = parseInt(document.getElementById('age').value, 10);
+    const age = parseInt(document.getElementById('age').value);
     let coverAmounts;
 
-    if (['child', 'extended'].includes(role) && age < 5) {
-        coverAmounts = [20000, 15000, 10000, 5000];
-    } else if (['child', 'parent', 'extended'].includes(role)) {
+    if (['child', 'parent', 'extended'].includes(role)) {
         coverAmounts = [30000, 25000, 20000, 15000, 10000, 5000];
     } else {
         coverAmounts = selectedCover === 'essential' ?
@@ -62,17 +60,30 @@ function updateCoverOptions() {
         option.value = amount;
         option.textContent = 'R' + amount.toLocaleString();
 
-        if (['child', 'extended'].includes(role) && age < 5 && amount > 20000) {
-            option.disabled = true;
-            option.textContent += ' (Not available)';
+        if (role === 'child' || (role === 'extended' && age < 5)) {
+            if (amount > 20000) {
+                option.disabled = true;
+                option.textContent += ' (Not available)';
+            }
         }
 
         coverAmountSelect.appendChild(option);
     });
 
-    coverAmountSelect.selectedIndex = 0;
-    updatePremium(); // Call updatePremium after updating cover options
+    // Set the selected index to the first available option
+    for (let i = 0; i < coverAmountSelect.options.length; i++) {
+        if (!coverAmountSelect.options[i].disabled) {
+            coverAmountSelect.selectedIndex = i;
+            break;
+        }
+    }
+
+    updatePremium();
 }
+
+// Make sure to call updateCoverOptions when the role or age changes
+document.getElementById('role').addEventListener('change', updateCoverOptions);
+document.getElementById('age').addEventListener('input', updateCoverOptions);
 
 function selectProtector(protector) {
     selectedProtector = protector;
