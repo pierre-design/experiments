@@ -44,9 +44,12 @@ function updateCoverOptions() {
     coverAmountSelect.innerHTML = '';
 
     const role = document.getElementById('role').value;
+    const age = parseInt(document.getElementById('age').value, 10);
     let coverAmounts;
 
-    if (['child', 'parent', 'extended'].includes(role)) {
+    if ((role === 'child' || role === 'extended') && age < 5) {
+        coverAmounts = [20000, 15000, 10000, 5000];
+    } else if (['child', 'parent', 'extended'].includes(role)) {
         coverAmounts = [30000, 25000, 20000, 15000, 10000, 5000];
     } else {
         coverAmounts = selectedCover === 'essential' ?
@@ -297,4 +300,8 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCoverOptions();
     toggleCoverOptions();
     fetchPricingTable();
+
+    // Add event listeners for role and age changes
+    document.getElementById('role').addEventListener('change', updateCoverOptions);
+    document.getElementById('age').addEventListener('input', updateCoverOptions);
 });
