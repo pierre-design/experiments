@@ -3,7 +3,7 @@ const ageLimits = {
     spouse: { min: 18, max: 65 },
     child: { min: 0, max: 19 },
     parent: { min: 35, max: 75 },
-    extended: { min: 1, max: 75 }
+    extended: { min: 1, max: 65 }
 };
 
 let pricingTable;
@@ -44,7 +44,6 @@ function updateCoverOptions() {
     coverAmountSelect.innerHTML = '';
 
     const role = document.getElementById('role').value;
-    const age = parseInt(document.getElementById('age').value);
     let coverAmounts;
 
     if (['child', 'parent', 'extended'].includes(role)) {
@@ -59,31 +58,12 @@ function updateCoverOptions() {
         const option = document.createElement('option');
         option.value = amount;
         option.textContent = 'R' + amount.toLocaleString();
-
-        if (role === 'child' || (role === 'extended' && age < 5)) {
-            if (amount > 20000) {
-                option.disabled = true;
-                option.textContent += ' (Not available)';
-            }
-        }
-
         coverAmountSelect.appendChild(option);
     });
 
-    // Set the selected index to the first available option
-    for (let i = 0; i < coverAmountSelect.options.length; i++) {
-        if (!coverAmountSelect.options[i].disabled) {
-            coverAmountSelect.selectedIndex = i;
-            break;
-        }
-    }
-
-    updatePremium();
+    coverAmountSelect.selectedIndex = 0;
+    updatePremium(); // Call updatePremium after updating cover options
 }
-
-// Make sure to call updateCoverOptions when the role or age changes
-document.getElementById('role').addEventListener('change', updateCoverOptions);
-document.getElementById('age').addEventListener('input', updateCoverOptions);
 
 function selectProtector(protector) {
     selectedProtector = protector;
@@ -124,7 +104,6 @@ function limitAge(input) {
     } else if (input.value.length > 2) {
         input.value = input.value.slice(-2);
     }
-    updateCoverOptions(); // Call updateCoverOptions when age changes
 }
 
 function checkAgeLimits() {
@@ -145,7 +124,6 @@ function checkAgeLimits() {
         ageInput.classList.remove('error');
         errorLabel.style.display = 'none';
     }
-    updateCoverOptions(); // Call updateCoverOptions when age limits are checked
 }
 
 function toggleCoverOptions() {
