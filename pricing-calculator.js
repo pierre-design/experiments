@@ -18,7 +18,7 @@ async function fetchPricingTable() {
         const parser = new DOMParser();
         pricingTable = parser.parseFromString(text, "text/xml");
         console.log("Pricing table loaded successfully");
-        updatePremium();
+        updatePremium(); // Call updatePremium after loading the pricing table
     } catch (error) {
         console.error("Error loading pricing table:", error);
     }
@@ -44,7 +44,7 @@ function updateCoverOptions() {
     coverAmountSelect.innerHTML = '';
 
     const role = document.getElementById('role').value;
-    const age = parseInt(document.getElementById('age').value, 10);
+    const age = parseInt(document.getElementById('age').value);
     let coverAmounts;
 
     if (['child', 'extended'].includes(role) && age < 5) {
@@ -303,3 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleCoverOptions();
     fetchPricingTable();
 });
+
+// Add event listeners for role and age changes
+document.getElementById('role').addEventListener('change', updateCoverOptions);
+document.getElementById('age').addEventListener('input', updateCoverOptions);
