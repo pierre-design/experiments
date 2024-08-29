@@ -3,7 +3,7 @@ const ageLimits = {
     spouse: { min: 18, max: 65 },
     child: { min: 0, max: 19 },
     parent: { min: 35, max: 75 },
-    extended: { min: 1, max: 65 }
+    extended: { min: 1, max: 75 }
 };
 
 let pricingTable;
@@ -44,9 +44,12 @@ function updateCoverOptions() {
     coverAmountSelect.innerHTML = '';
 
     const role = document.getElementById('role').value;
+    const age = parseInt(document.getElementById('age').value, 10);
     let coverAmounts;
 
-    if (['child', 'parent', 'extended'].includes(role)) {
+    if (['child', 'extended'].includes(role) && age < 5) {
+        coverAmounts = [20000, 15000, 10000, 5000];
+    } else if (['child', 'parent', 'extended'].includes(role)) {
         coverAmounts = [30000, 25000, 20000, 15000, 10000, 5000];
     } else {
         coverAmounts = selectedCover === 'essential' ?
@@ -58,6 +61,12 @@ function updateCoverOptions() {
         const option = document.createElement('option');
         option.value = amount;
         option.textContent = 'R' + amount.toLocaleString();
+
+        if (['child', 'extended'].includes(role) && age < 5 && amount > 20000) {
+            option.disabled = true;
+            option.textContent += ' (Not available)';
+        }
+
         coverAmountSelect.appendChild(option);
     });
 
@@ -104,6 +113,7 @@ function limitAge(input) {
     } else if (input.value.length > 2) {
         input.value = input.value.slice(-2);
     }
+    updateCoverOptions(); // Call updateCoverOptions when age changes
 }
 
 function checkAgeLimits() {
@@ -124,6 +134,7 @@ function checkAgeLimits() {
         ageInput.classList.remove('error');
         errorLabel.style.display = 'none';
     }
+    updateCoverOptions(); // Call updateCoverOptions when age limits are checked
 }
 
 function toggleCoverOptions() {
