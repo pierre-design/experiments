@@ -3,7 +3,7 @@ const ageLimits = {
     spouse: { min: 18, max: 65 },
     child: { min: 0, max: 19 },
     parent: { min: 35, max: 75 },
-    extended: { min: 1, max: 65 }
+    extended: { min: 1, max: 75 }
 };
 
 let pricingTable;
@@ -18,7 +18,7 @@ async function fetchPricingTable() {
         const parser = new DOMParser();
         pricingTable = parser.parseFromString(text, "text/xml");
         console.log("Pricing table loaded successfully");
-        updatePremium(); // Call updatePremium after loading the pricing table
+        updatePremium();
     } catch (error) {
         console.error("Error loading pricing table:", error);
     }
@@ -44,9 +44,12 @@ function updateCoverOptions() {
     coverAmountSelect.innerHTML = '';
 
     const role = document.getElementById('role').value;
+    const age = parseInt(document.getElementById('age').value, 10);
     let coverAmounts;
 
-    if (['child', 'parent', 'extended'].includes(role)) {
+    if (['child', 'extended'].includes(role) && age < 5) {
+        coverAmounts = [20000, 15000, 10000, 5000];
+    } else if (['child', 'parent', 'extended'].includes(role)) {
         coverAmounts = [30000, 25000, 20000, 15000, 10000, 5000];
     } else {
         coverAmounts = selectedCover === 'essential' ?
@@ -62,7 +65,7 @@ function updateCoverOptions() {
     });
 
     coverAmountSelect.selectedIndex = 0;
-    updatePremium(); // Call updatePremium after updating cover options
+    updatePremium();
 }
 
 function selectProtector(protector) {
@@ -104,6 +107,7 @@ function limitAge(input) {
     } else if (input.value.length > 2) {
         input.value = input.value.slice(-2);
     }
+    updateCoverOptions();
 }
 
 function checkAgeLimits() {
@@ -124,6 +128,7 @@ function checkAgeLimits() {
         ageInput.classList.remove('error');
         errorLabel.style.display = 'none';
     }
+    updateCoverOptions();
 }
 
 function toggleCoverOptions() {
@@ -147,7 +152,7 @@ function toggleCoverOptions() {
         document.getElementById('protectors').style.width = 'calc(33.33% - 4px)';
     }
 
-    updateCoverOptions(); // Call updateCoverOptions after changing the role
+    updateCoverOptions();
 }
 
 function updatePremium() {
