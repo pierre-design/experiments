@@ -3,7 +3,7 @@ const ageLimits = {
     spouse: { min: 18, max: 65 },
     child: { min: 0, max: 19 },
     parent: { min: 35, max: 75 },
-    extended: { min: 1, max: 75 }
+    extended: { min: 1, max: 65 }
 };
 
 let pricingTable;
@@ -44,12 +44,9 @@ function updateCoverOptions() {
     coverAmountSelect.innerHTML = '';
 
     const role = document.getElementById('role').value;
-    const age = parseInt(document.getElementById('age').value);
     let coverAmounts;
 
-    if (['child', 'extended'].includes(role) && age < 5) {
-        coverAmounts = [20000, 15000, 10000, 5000];
-    } else if (['child', 'parent', 'extended'].includes(role)) {
+    if (['child', 'parent', 'extended'].includes(role)) {
         coverAmounts = [30000, 25000, 20000, 15000, 10000, 5000];
     } else {
         coverAmounts = selectedCover === 'essential' ?
@@ -65,7 +62,7 @@ function updateCoverOptions() {
     });
 
     coverAmountSelect.selectedIndex = 0;
-    updatePremium();
+    updatePremium(); // Call updatePremium after updating cover options
 }
 
 function selectProtector(protector) {
@@ -107,7 +104,6 @@ function limitAge(input) {
     } else if (input.value.length > 2) {
         input.value = input.value.slice(-2);
     }
-    updateCoverOptions();
 }
 
 function checkAgeLimits() {
@@ -128,7 +124,6 @@ function checkAgeLimits() {
         ageInput.classList.remove('error');
         errorLabel.style.display = 'none';
     }
-    updateCoverOptions();
 }
 
 function toggleCoverOptions() {
@@ -152,7 +147,7 @@ function toggleCoverOptions() {
         document.getElementById('protectors').style.width = 'calc(33.33% - 4px)';
     }
 
-    updateCoverOptions();
+    updateCoverOptions(); // Call updateCoverOptions after changing the role
 }
 
 function updatePremium() {
@@ -303,7 +298,3 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleCoverOptions();
     fetchPricingTable();
 });
-
-// Add event listeners for role and age changes
-document.getElementById('role').addEventListener('change', updateCoverOptions);
-document.getElementById('age').addEventListener('input', updateCoverOptions);
